@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_CreateRentalInvoice_CC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75a632a1-adee-4e73-87a8-e45f54ad82c6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3ca8705-b133-46b1-85d7-dcfb5cde379b</id>
+      <masked>false</masked>
+      <name>PaymentGatwayTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7369f9ff-b1b0-4e1e-b418-083520aabb8a</id>
+      <masked>false</masked>
+      <name>CardTypeTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a325555a-6f48-4f00-9a62-ab047c65925d</id>
+      <masked>false</masked>
+      <name>CCNOTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e14501d-9075-413d-a3f0-a0b524572bfb</id>
+      <masked>false</masked>
+      <name>CVVTC</name>
+   </variable>
+</TestCaseEntity>

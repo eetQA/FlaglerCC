@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Part_AddPartLinePos1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>714feca2-98c8-4b1f-abe3-e3e7346001ed</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff9953f0-da3a-4a37-b3c0-1c661b506803</id>
+      <masked>false</masked>
+      <name>PartName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0863f47f-4149-445a-b2d4-7528853b2554</id>
+      <masked>false</masked>
+      <name>Qty</name>
+   </variable>
+</TestCaseEntity>

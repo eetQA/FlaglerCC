@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EPO_CreateNrecieve</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>800769a6-eabb-4a65-af0f-40181104d56b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8d83a55-fd63-4cf1-b978-99a02a2616e6</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e8244b9-5bed-4d28-a944-24b6cd6cd572</id>
+      <masked>false</masked>
+      <name>Model</name>
+   </variable>
+</TestCaseEntity>

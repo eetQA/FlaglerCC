@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Part_PickPacknInvoiceWithCCSplitPayment</name>
+   <tag></tag>
+   <comment>*********Line 1: Credit Card Started***********************
+*********Line 2: Credit Card Started***********************
+*********Line 3: Cash Started***********************</comment>
+   <testCaseGuid>4aada0e1-7b37-4285-bc46-dc6e2c1e87eb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d9ec2ba-923a-416d-b111-1a92ff24cfb3</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ef60cae-c287-4812-863a-507bd32e46d2</id>
+      <masked>false</masked>
+      <name>CardType1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4838902b-2518-460d-bba3-a0cbdca82964</id>
+      <masked>false</masked>
+      <name>CardNumber1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ede74ed8-6eec-4461-aa99-dcf70a20a2fd</id>
+      <masked>false</masked>
+      <name>CVV1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e90c4b31-543f-48f7-aef0-911082ed34cd</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc8cec9b-e627-4e49-907e-f171cdb57ff6</id>
+      <masked>false</masked>
+      <name>CVV2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c145ba5-c305-4ae1-9b46-d1ccb649b97d</id>
+      <masked>false</masked>
+      <name>CardNumber2</name>
+   </variable>
+</TestCaseEntity>

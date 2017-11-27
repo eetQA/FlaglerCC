@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_RentalContractInvoice_CC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c67c56e0-dbe9-42bf-b3c5-c63428337fd0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>698cc410-490f-4c9e-88bc-eaca79b8a359</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3699d626-24d9-4dcf-9c26-77c41c4a8e1d</id>
+      <masked>false</masked>
+      <name>PaymentGatwayTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>367da996-cf82-444a-9d00-5abc26355172</id>
+      <masked>false</masked>
+      <name>CardTypeTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3828aa2d-ed55-4628-9ff1-b392ad85379a</id>
+      <masked>false</masked>
+      <name>CCNOTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08dd2d4a-aedc-4522-9dc8-891295935010</id>
+      <masked>false</masked>
+      <name>CVVTC</name>
+   </variable>
+</TestCaseEntity>

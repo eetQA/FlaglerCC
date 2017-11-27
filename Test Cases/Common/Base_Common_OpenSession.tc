@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is used to open session
+Input: sessionID
+
+Steps:
+1. Open browser
+2. Open url
+3. Click on More > options> runprogram
+4. Enter 'session id'
+5. Click on OK</description>
+   <name>Base_Common_OpenSession</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45bb8529-b246-474c-8585-2f045b554c99</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ca5c29c-fa46-40bb-a1c4-b903ac40910e</id>
+      <masked>false</masked>
+      <name>SessionID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b4879f7-fd6e-4896-b6e7-db36fafaaf67</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

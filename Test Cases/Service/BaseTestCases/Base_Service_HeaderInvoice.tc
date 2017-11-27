@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Service_HeaderInvoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba573440-e9f1-4830-ab5e-0d421e7d7db8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa3c196e-2d78-4e1e-bb4c-8a49c17b1269</id>
+      <masked>false</masked>
+      <name>CCNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e3b3c4c-eecc-42ec-a4e8-ebe0101c5501</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4b5f0a8-58cf-453f-b39b-95ef517ad3ee</id>
+      <masked>false</masked>
+      <name>PaymentGate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a64107a2-b9a8-4d2b-bbbc-e8362e06aae1</id>
+      <masked>false</masked>
+      <name>CardType</name>
+   </variable>
+</TestCaseEntity>

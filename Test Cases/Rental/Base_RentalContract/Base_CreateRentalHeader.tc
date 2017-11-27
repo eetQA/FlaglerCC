@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_CreateRentalHeader</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cca4e18-dd98-42bc-b0e8-8fb9eec65e62</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>486cb46e-d3d5-48ab-ac23-cf93460e0cb3</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac23fe75-b686-4e74-8f45-2b17b9fc1bca</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
+</TestCaseEntity>

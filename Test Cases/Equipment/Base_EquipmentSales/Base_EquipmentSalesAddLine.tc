@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_EquipmentSalesAddLine</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03283698-b913-4edf-a2ac-ef6f5e96da3d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>92130609-49f2-4e58-a3a4-09addbc42804</id>
+      <masked>false</masked>
+      <name>Model</name>
+   </variable>
+</TestCaseEntity>

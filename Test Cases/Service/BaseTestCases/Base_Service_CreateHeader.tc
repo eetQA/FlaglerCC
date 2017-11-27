@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Service_CreateHeader</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>446fc680-2057-4ec5-95d5-6403a2ce1f99</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>497fed37-e9a4-409d-9de5-e240fcc3a104</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>39c6ed8c-bfc9-4047-90c8-f249c26b2dfb</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
+</TestCaseEntity>

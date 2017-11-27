@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Service_Add Others</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf48e2e6-e117-46b8-a273-a8dfef7f8338</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fff6eff7-6855-4703-befa-ff2d08d99480</id>
+      <masked>false</masked>
+      <name>CostComp</name>
+   </variable>
+</TestCaseEntity>

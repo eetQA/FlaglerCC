@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Equipement_CreateHeader</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e73ab61e-29db-4622-a43c-043438a3e636</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e5726580-4b57-41dc-bda8-720dfc28f3cb</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+</TestCaseEntity>

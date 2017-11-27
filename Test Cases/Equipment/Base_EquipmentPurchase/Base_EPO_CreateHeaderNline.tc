@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_EPO_CreateHeaderNline</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3db551a6-aaea-4872-aa6b-fa06550bd1bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6326a0f-7b5e-4a9a-81b9-e8e1695fc5ce</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1bb4c08b-6001-4421-b466-fd5cd1260453</id>
+      <masked>false</masked>
+      <name>Model</name>
+   </variable>
+</TestCaseEntity>

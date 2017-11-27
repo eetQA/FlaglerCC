@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Objective: Equipment Credit Card Sales Invoicing with different gateways
+
+Steps:
+1. 'Book an Equipment Order with Mode of Payment - 'Credit Card'.
+2. Add a configuration 
+3. Confirm the delivery.
+4. Invoice the Order with Credit card
+
+Expected:
+Two invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.</description>
+   <name>TC001_EquipmentSalesAgreement_DiffGateway</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43b9e78a-cece-49c0-928c-700cb76dc1c0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>241b19f7-b41c-4a14-9827-4cdfa37badd2</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91433cf0-3719-48d6-bc25-b63a242e6636</id>
+      <masked>false</masked>
+      <name>Model</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>95ca5434-35cf-481c-b45f-59ac252e8bb7</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87d93445-d630-4809-8d8e-301eda926ef9</id>
+      <masked>false</masked>
+      <name>CCType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8cb51953-42be-41e7-86bd-ab82186d3a22</id>
+      <masked>false</masked>
+      <name>CC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c449e66c-3502-420f-ba09-d009629d1386</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+</TestCaseEntity>

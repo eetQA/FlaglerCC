@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Objective: Equipment Credit Card Split Tender Invoicing 
+
+Steps:
+1. 'Book a Equipment Agreement with Mode of Payment - 'Credit Card'.
+2. Add Unit
+3. Deliver the Unit
+4. Invoice the Order with Split tender:  two Credit Cards and one cash
+
+Expected Result:
+Three invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and two against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Amount of Invoice against Order B.P. should be invoice amt of order and Invoice Balance should be equal to cash
+</description>
+   <name>TC002_EquipmentSalesAgreement_Split</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eef2a5b2-a564-4f17-ad37-99d55adc1156</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24a6bceb-cd4e-45a0-93ef-4a8dee60431d</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f45d6660-20df-432e-af39-7e3efa8c26fc</id>
+      <masked>false</masked>
+      <name>Model</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>692346dd-66bc-4020-a223-c40f8002b651</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d59e1bb4-e4b0-433e-9b33-e5f0ae2895fa</id>
+      <masked>false</masked>
+      <name>Cardtype1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f69f434d-6543-47fa-9e5d-caa0193e8f00</id>
+      <masked>false</masked>
+      <name>CardNumber1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5042a777-3148-4000-8f86-507bb5da6291</id>
+      <masked>false</masked>
+      <name>CVV1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e2b48bb-f721-46b6-99e6-70b523319baa</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbc25805-b072-48e6-9770-3be3a9306342</id>
+      <masked>false</masked>
+      <name>CardNumber2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28bcd19f-ddd3-49c7-bf88-b14424a15db7</id>
+      <masked>false</masked>
+      <name>CVV2</name>
+   </variable>
+</TestCaseEntity>

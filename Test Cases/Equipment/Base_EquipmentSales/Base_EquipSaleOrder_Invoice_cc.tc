@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_EquipSaleOrder_Invoice_cc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4de08695-e2d9-4d58-bcd7-c9f5f77f3570</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3f824f8-69d6-44e1-9f8d-27dd51992fab</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0069aacd-d0ef-4c6c-a5df-74e416e8f4d2</id>
+      <masked>false</masked>
+      <name>CardType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c87be74-668f-4872-9394-1c1505d802c3</id>
+      <masked>false</masked>
+      <name>CCNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf49516e-3585-479a-bad3-0317a7416a54</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+</TestCaseEntity>

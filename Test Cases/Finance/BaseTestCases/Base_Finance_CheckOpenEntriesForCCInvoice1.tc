@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Finance_CheckOpenEntriesForCCInvoice1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2aa4dda2-fb8d-4771-adae-116443b1d0e1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e58e756a-e925-4df3-81db-a34fa0a82457</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+</TestCaseEntity>
