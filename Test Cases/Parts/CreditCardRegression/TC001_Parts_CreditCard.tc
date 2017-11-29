@@ -71,4 +71,11 @@ Inputs Needed:
       <masked>false</masked>
       <name>CardNumber</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a3fe02d-6124-4a49-894d-3fa7f93bbbeb</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
 </TestCaseEntity>

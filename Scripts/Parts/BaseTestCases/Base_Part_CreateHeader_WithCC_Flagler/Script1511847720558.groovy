@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleO
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'), 'EQ1402768')
+WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'), Unit)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment'))
 

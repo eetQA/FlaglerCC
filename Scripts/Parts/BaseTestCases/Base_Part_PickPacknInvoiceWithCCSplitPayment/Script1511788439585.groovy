@@ -21,62 +21,75 @@ import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.validator.Var as Var
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice'), 
-    30)
+    30, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'))
+not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'), FailureHandling.CONTINUE_ON_FAILURE)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption')) == 
+not_run: if (WebUI.verifyElementVisible(findTestObject('Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption')) == 
 true) {
-    WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'))
+    not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'))
 }
 
-WebUI.delay(3)
+not_run: WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: if (WebUI.verifyElementVisible(findTestObject('Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose')) == 
 true) {
-    WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose'))
+    not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose'))
 }
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption'))
+WebUI.waitForElementPresent(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'), Gateway)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'))
+WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device'), 'D', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Continue'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'), CardType1)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'))
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'), Gateway, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'), CardNumber1)
+WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'), CVV1)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_MM'), '09')
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'), CardType1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_YY'), '99')
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment'))
+not_run: WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes'))
+not_run: WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'), CardNumber1, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus'))
+not_run: WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'), CVV1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+not_run: WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_MM'), '09', FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_YY'), '99', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.G_OrderAmt = ((WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal'))) as double)
 
@@ -86,144 +99,162 @@ println(GlobalVariable.G_SplitOrderAmt1)
 
 println(GlobalVariable.G_SplitOrderAmt2)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.comment('*********Line 1: Credit Card Started***********************')
+WebUI.comment('*********Line 1: Credit Card Started***********************', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'), 
-    CardNumber1)
+    CardNumber1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'), 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'), 
-    CVV1)
+    CVV1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'), 
-    GlobalVariable.G_SplitOrderAmt1)
+    GlobalVariable.G_SplitOrderAmt1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save'), 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.comment('*********Line 2: Credit Card Started***********************')
+WebUI.comment('*********Line 2: Credit Card Started***********************', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'), 
-    CardNumber2)
+    CardNumber2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'), 
-    CVV2)
+    CVV2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CardType2'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CardType2'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'), 
-    'Test')
+    'Test', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'), 
-    '09')
+    '09', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2'), 
-    '99')
+    '99', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add'), 
-    GlobalVariable.G_SplitOrderAmt1)
+    GlobalVariable.G_SplitOrderAmt1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save'), 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.comment('*********Line 3: Cash Started***********************')
+WebUI.comment('*********Line 3: Cash Started***********************', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_ModeOfPayment'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_ModeOfPayment'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_Cashoption'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_Cashoption'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt'), 
-    GlobalVariable.G_SplitOrderAmt2)
+    GlobalVariable.G_SplitOrderAmt2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save'), 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Spilt_Action'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Spilt_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_ApplyTax'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_ApplyTax'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_Scrollup'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_Scrollup'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1'), 
-    10)
+    10, FailureHandling.CONTINUE_ON_FAILURE)
 
-GlobalVariable.G_SplitInvoiceAmt1 = WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1'))
+GlobalVariable.G_SplitInvoiceAmt1 = WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2'), 
-    10)
+    10, FailureHandling.CONTINUE_ON_FAILURE)
 
-GlobalVariable.G_SplitInvoiceAmt2 = WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2'))
+GlobalVariable.G_SplitInvoiceAmt2 = WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_SaveNclose'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_SaveNclose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_Process'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_Process'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDeviceSplit'), 
-    20)
+    20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDeviceSplit'), 'D')
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDeviceSplit'), 'D', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptContinueSplit'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptContinueSplit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 

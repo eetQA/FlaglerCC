@@ -4,7 +4,7 @@
    <name>Flagler_PartsTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-28T18:30:41</lastRun>
+   <lastRun>2017-11-29T15:57:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>fa024196-18b5-4968-9a8a-59aee6b71605</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -60,6 +60,93 @@
          <type>DATA_COLUMN</type>
          <value>CardNo</value>
          <variableId>8cf4656f-8fc7-4a41-8859-e0a5cd5dd25d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Units</value>
+         <variableId>0a3fe02d-6124-4a49-894d-3fa7f93bbbeb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1aef2117-19a9-4cf6-a403-86badbc695e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c395d915-3a99-46f9-aaba-b2408e04c07d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FLAGLER/PartsData/TC002_PartsSplit</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>e97ce060-9a9c-4acc-8b54-3765d3c6e1e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Part</value>
+         <variableId>f4984f85-7f49-4305-aaf8-039dfd73b9be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Qty1</value>
+         <variableId>8293db8c-d0c7-4b8b-bbc1-06cc94c53a75</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gateway</value>
+         <variableId>856d0463-8e0b-4bc5-b4f2-4f51b151375c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Card Number1</value>
+         <variableId>b4876252-a273-462f-ba91-a2675254cc14</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardType1</value>
+         <variableId>ce7b74f9-1125-4e2d-934c-674778f96352</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV1</value>
+         <variableId>e67528c6-3d5a-45fe-941d-9610cf2a10a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardNumber2</value>
+         <variableId>84d47f23-6a95-4856-8a04-4d2522e584f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardType2</value>
+         <variableId>fa7a1b6f-1404-4ad0-b173-905567b048c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV2</value>
+         <variableId>46bda3b5-60e7-4cfa-9a0c-38a270390bc0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c395d915-3a99-46f9-aaba-b2408e04c07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Unit</value>
+         <variableId>c5f78647-3661-41c8-97d4-1a66d8117d2d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

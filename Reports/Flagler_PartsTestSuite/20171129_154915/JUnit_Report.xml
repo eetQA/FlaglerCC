@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_PartsTestSuite" time="108" tests="0" failures="0" errors="1">
+   <testsuite name="Flagler_PartsTestSuite" tests="0" failures="0" errors="1" time="108" timestamp="2017-11-29 15:49:22" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Flagler_PartsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171129_154915"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171129_154915\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="19a33d53-486f-471b-8126-74555bd79263"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard" classname="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard" status="ERROR">
+         <error type="ERROR" message="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Variable 'G_OrderAmt' is not defined for test case."/>
+         <system-out><![CDATA[2017-11-29 15:49:22 - [TEST_CASE][ERROR] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Variable 'G_OrderAmt' is not defined for test case.
+
+2017-11-29 15:49:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler' successfully
+
+2017-11-29 15:49:23 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler: Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler
+
+2017-11-29 15:49:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 15:49:24 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-29 15:49:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 15:49:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 15:49:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-29 15:49:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-29 15:49:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-29 15:49:36 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-29 15:49:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 15:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 15:49:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 15:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 15:49:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 15:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 15:49:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 15:49:44 - [MESSAGE][PASSED] - Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 15:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 15:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 15:49:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 15:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-29 15:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-29 15:49:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-29 15:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-29 15:49:53 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-29 15:49:53 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-29 15:49:53 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-29 15:49:53 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-29 15:49:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-29 15:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-29 15:49:54 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-29 15:49:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-29 15:49:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-11-29 15:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-11-29 15:49:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 15:49:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 15:49:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit' is clicked on
+
+2017-11-29 15:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit' is clicked on
+
+2017-11-29 15:49:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 15:49:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 15:49:58 - [TEST_STEP][PASSED] - sendKeys: Keys 'EQ1402768' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'
+
+2017-11-29 15:49:58 - [MESSAGE][PASSED] - Keys 'EQ1402768' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'
+
+2017-11-29 15:49:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-11-29 15:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-11-29 15:49:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-11-29 15:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-11-29 15:49:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 15:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 15:49:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_Header_GeneralTab' is clicked on
+
+2017-11-29 15:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_Header_GeneralTab' is clicked on
+
+2017-11-29 15:49:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 15:50:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 15:50:04 - [TEST_STEP][PASSED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo), "value"): Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO020105'
+
+2017-11-29 15:50:05 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO020105'
+
+2017-11-29 15:50:05 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-11-29 15:50:08 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-11-29 15:50:08 - [TEST_STEP][PASSED] - Statement - println("sale order number" + G_Part_PSO): null
+
+2017-11-29 15:50:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler' successfully
+
+2017-11-29 15:50:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-11-29 15:50:08 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1: Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1
+
+2017-11-29 15:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-29 15:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-29 15:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' is clicked on
+
+2017-11-29 15:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' is clicked on
+
+2017-11-29 15:50:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 15:50:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 15:50:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'R123438' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-11-29 15:50:15 - [MESSAGE][PASSED] - Keys 'R123438' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-11-29 15:50:15 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-11-29 15:50:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-11-29 15:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-11-29 15:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-11-29 15:50:22 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-11-29 15:50:23 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-11-29 15:50:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 15:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 15:50:23 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-29 15:50:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-29 15:50:33 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-11-29 15:50:33 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-11-29 15:50:33 - [TEST_STEP][NOT_RUN] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice)): NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-11-29 15:50:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-11-29 15:50:33 - [TEST_STEP][NOT_RUN] - Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty)): NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-11-29 15:50:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-11-29 15:50:33 - [TEST_STEP][NOT_RUN] - Statement - G_OrderLineAmt = G_FirmPrice * Qty1: NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-11-29 15:50:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-11-29 15:50:33 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice): NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-11-29 15:50:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-11-29 15:50:33 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt): NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-11-29 15:50:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-11-29 15:50:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-11-29 15:50:33 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' failed because of error(s))
+
+2017-11-29 15:50:33 - [TEST_CASE][ERROR] - Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment: Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment FAILED because (of) Variable 'G_OrderAmt' is not defined for test case.
+
+2017-11-29 15:50:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-11-29 15:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-11-29 15:50:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 15:50:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 15:50:38 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-11-29 15:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-11-29 15:50:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-11-29 15:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-11-29 15:50:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 15:50:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 15:50:43 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-29 15:50:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-29 15:50:43 - [TEST_STEP][NOT_RUN] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true): NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true)
+
+2017-11-29 15:50:43 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true)
+
+2017-11-29 15:50:43 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-29 15:50:43 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-29 15:50:43 - [TEST_STEP][NOT_RUN] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true): NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-11-29 15:50:43 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-11-29 15:50:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is present
+
+2017-11-29 15:50:43 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is present
+
+2017-11-29 15:50:43 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is double clicked on
+
+2017-11-29 15:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is double clicked on
+
+2017-11-29 15:50:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 15:50:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 15:50:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'D' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device'
+
+2017-11-29 15:50:45 - [MESSAGE][PASSED] - Keys 'D' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device'
+
+2017-11-29 15:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Continue' is clicked on
+
+2017-11-29 15:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Continue' is clicked on
+
+2017-11-29 15:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-11-29 15:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-11-29 15:50:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 15:50:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 15:50:54 - [TEST_STEP][PASSED] - setText: Text 'GLOBAL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-11-29 15:50:54 - [MESSAGE][PASSED] - Text 'GLOBAL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-11-29 15:50:54 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-11-29 15:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-11-29 15:50:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 15:50:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 15:50:56 - [TEST_STEP][PASSED] - setText: Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-11-29 15:50:56 - [MESSAGE][PASSED] - Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-11-29 15:50:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 15:50:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 15:50:59 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-11-29 15:50:59 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-11-29 15:50:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 15:50:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 15:50:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 15:50:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 15:50:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 15:50:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 15:50:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 15:50:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 15:50:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-11-29 15:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-11-29 15:51:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-11-29 15:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-11-29 15:51:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 15:51:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 15:51:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-11-29 15:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-11-29 15:51:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 15:51:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 15:51:08 - [TEST_STEP][PASSED] - Statement - G_OrderAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal)): Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '131.68'
+
+2017-11-29 15:51:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '131.68'
+
+2017-11-29 15:51:08 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2017-11-29 15:49:22 - [TEST_CASE][ERROR] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Variable 'G_OrderAmt' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-29 15:49:22 - [TEST_SUITE][ERROR] - Flagler_PartsTestSuite: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Variable 'G_OrderAmt' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2017-11-29 15:49:22 - [TEST_SUITE][ERROR] - Flagler_PartsTestSuite: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Variable 'G_OrderAmt' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

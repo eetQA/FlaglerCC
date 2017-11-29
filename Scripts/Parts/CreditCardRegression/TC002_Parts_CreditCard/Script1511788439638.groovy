@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Create Part Sales Order header with cc'
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler'), [('BP') : BP, ('Unit') : Unit], 
+    FailureHandling.STOP_ON_FAILURE)
 
 'Add Line\r\n'
 WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : Part, ('Qty') : Qty], 

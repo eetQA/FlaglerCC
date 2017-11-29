@@ -23,4 +23,11 @@ Steps:
       <masked>false</masked>
       <name>BP</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c88ad7c3-78e5-4b92-9cb6-49781eeb1885</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
 </TestCaseEntity>
