@@ -30,49 +30,49 @@ Two invoices should get generated in the 'Open Entries' (tfacr2520m000) session 
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>19769a65-60c3-4aa1-9933-ac414c61c043</id>
+      <id>8aebcaa9-dc52-4caa-8433-fe1a97fb69c3</id>
       <masked>false</masked>
       <name>BP</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>58d99ed9-abfc-4daa-bc14-24ab7cacbdfc</id>
+      <id>8e7db3c8-427d-48e4-ba43-078b0d6db219</id>
       <masked>false</masked>
       <name>Unit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e955b175-2463-49a7-b166-3e80672a4f40</id>
+      <id>5ae61352-ce29-48c1-a35e-05fbf7c7d840</id>
       <masked>false</masked>
       <name>CostComp</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>de699acc-2943-4543-9754-34c5c108b454</id>
+      <id>a95ec47c-2cc9-4526-99da-521a98e394eb</id>
       <masked>false</masked>
       <name>CCNo</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c490e1ed-86d6-4dad-a180-8da84757ece2</id>
+      <id>6afa4c15-a922-4da6-90ce-649f961e0f41</id>
       <masked>false</masked>
       <name>CVV</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>53a067c1-c1de-402f-99dc-929b916487e3</id>
+      <id>0ee03de7-137f-48ec-9917-fbea01d792df</id>
       <masked>false</masked>
       <name>CardType_TC1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>eed9ee53-6603-47d2-bc45-1037b1e2df28</id>
+      <id>8f1fa8bb-be2b-49b0-b120-d61b44b4f3f6</id>
       <masked>false</masked>
       <name>PaymentGate_TC1</name>
    </variable>

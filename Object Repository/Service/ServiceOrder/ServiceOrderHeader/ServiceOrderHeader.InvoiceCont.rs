@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>dlg-tssoc2100m001-0-input-button-0</value>
+      <value>dlg-tssoc2100m001-0-input-button-0-label</value>
    </webElementProperties>
 </WebElementEntity>

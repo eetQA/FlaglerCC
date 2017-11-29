@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tssoc2100m001-0-menu-std:action-form-set.status.to.costed</value>
+      <value>tssoc2100m001-0-menu-std:action-form-set.status.to.costed-label</value>
    </webElementProperties>
 </WebElementEntity>

@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext6102m000-3-cvv.no-8-decorator</value>
+      <value>xiext6102m000-3-cvv.no-8</value>
    </webElementProperties>
 </WebElementEntity>

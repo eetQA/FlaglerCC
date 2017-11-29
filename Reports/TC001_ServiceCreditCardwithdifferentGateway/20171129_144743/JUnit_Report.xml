@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC001_ServiceCreditCardwithdifferentGateway" time="87" tests="0" failures="1" errors="0">
+   <testsuite name="TC001_ServiceCreditCardwithdifferentGateway" tests="0" failures="1" errors="0" time="87" timestamp="2017-11-29 14:47:51" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/TC001_ServiceCreditCardwithdifferentGateway">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743\\1511947152633.png, C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743\\1511947156811.png, C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743\\1511947158448.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="744e247b-3428-4f4d-ba5c-0f377074722b"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard" classname="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)"/>
+         <system-out><![CDATA[2017-11-29 14:47:51 - [TEST_CASE][FAILED] - Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)
+
+2017-11-29 14:47:52 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' failed)
+
+2017-11-29 14:47:52 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_CreateHeader: Test Cases/Service/BaseTestCases/Base_Service_CreateHeader FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)
+
+2017-11-29 14:47:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 14:47:52 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-29 14:47:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 14:48:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 14:48:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-29 14:48:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-29 14:48:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-29 14:48:10 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-29 14:48:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 14:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 14:48:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 14:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 14:48:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 14:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 14:48:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 14:48:13 - [MESSAGE][PASSED] - Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 14:48:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 14:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 14:48:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 14:48:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-29 14:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-29 14:48:17 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-29 14:48:25 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-29 14:48:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer' is clicked on
+
+2017-11-29 14:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer' is clicked on
+
+2017-11-29 14:48:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 14:48:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 14:48:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'BP0009610' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 14:48:28 - [MESSAGE][PASSED] - Keys 'BP0009610' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 14:48:28 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 14:48:28 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 14:48:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 14:48:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 14:48:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit' is clicked on
+
+2017-11-29 14:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit' is clicked on
+
+2017-11-29 14:48:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 14:48:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 14:48:33 - [TEST_STEP][PASSED] - sendKeys: Keys 'EQ0128249' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-29 14:48:33 - [MESSAGE][PASSED] - Keys 'EQ0128249' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-29 14:48:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 14:48:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 14:48:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-29 14:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-29 14:48:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 14:48:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 14:48:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)
+
+2017-11-29 14:49:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743\\1511947152633.png]]
+
+2017-11-29 14:49:12 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' failed)
+
+2017-11-29 14:49:12 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' failed)
+
+2017-11-29 14:49:13 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_AddSegment: Test Cases/Service/BaseTestCases/Base_Service_AddSegment FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 744e247b-3428-4f4d-ba5c-0f377074722b
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+
+2017-11-29 14:49:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 744e247b-3428-4f4d-ba5c-0f377074722b
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+
+2017-11-29 14:49:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 744e247b-3428-4f4d-ba5c-0f377074722b
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+[[ATTACHMENT|C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743\\1511947156811.png]]
+
+2017-11-29 14:49:16 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' failed)
+
+2017-11-29 14:49:16 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' failed)
+
+2017-11-29 14:49:17 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_Add Others: Test Cases/Service/BaseTestCases/Base_Service_Add Others FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 744e247b-3428-4f4d-ba5c-0f377074722b
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-menu-std:action-form-estimated.others']})
+
+2017-11-29 14:49:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 744e247b-3428-4f4d-ba5c-0f377074722b
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-menu-std:action-form-estimated.others']})
+
+2017-11-29 14:49:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 744e247b-3428-4f4d-ba5c-0f377074722b
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-menu-std:action-form-estimated.others']})
+[[ATTACHMENT|C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_144743\\1511947158448.png]]
+
+2017-11-29 14:49:18 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' failed)
+
+2017-11-29 14:49:18 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-11-29 14:49:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-11-29 14:49:18 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-11-29 14:49:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-11-29 14:49:18 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-11-29 14:49:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase]]></system-out>
+         <system-err><![CDATA[2017-11-29 14:47:51 - [TEST_CASE][FAILED] - Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-29 14:47:51 - [TEST_SUITE][FAILED] - TC001_ServiceCreditCardwithdifferentGateway: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-29 14:47:51 - [TEST_SUITE][FAILED] - TC001_ServiceCreditCardwithdifferentGateway: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' located by 'By.xpath: //*[@id = 'dlg-tssoc2100m001-0-input-button-1']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

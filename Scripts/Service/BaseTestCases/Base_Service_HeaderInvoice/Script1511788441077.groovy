@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrder
 WebUI.delay(5)
 
 'Skip Re-price message'
-WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning'))
+not_run: WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning'))
 
 WebUI.delay(3)
 
@@ -77,6 +77,8 @@ WebUI.delay(2)
 'Select CC No.'
 WebUI.doubleClick(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'))
 
+WebUI.delay(3)
+
 'Pass CC No Variable'
 WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'), CCNo)
 
@@ -84,6 +86,8 @@ WebUI.delay(2)
 
 'Click on CVV '
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'))
+
+WebUI.delay(3)
 
 'Pass CVV variable'
 WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'), CVV)
@@ -96,7 +100,7 @@ not_run: WebUI.delay(3)
 WebUI.delay(3)
 
 'Enter Expiry Month 09'
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'), '09')
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'), '09')
 
 'Enter Expiry Year 99'
 WebUI.setText(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'), '99')

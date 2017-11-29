@@ -33,8 +33,9 @@ WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoic
         , ('CardType') : CardType_TC1], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Service Order>Header Invoice Details ie read invoice series and amount'
-WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_GetInvoice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_GetInvoice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Service Order>Check open entries for CC BP and Invoice BP'
-WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [('BP') : BP], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 

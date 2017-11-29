@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC001_ServiceCreditCardwithdifferentGateway,Firefox 56.0,,2017-11-29 14:56:42,2017-11-29 14:59:06,2m - 23.739s,PASSED
+,,,,,,
+Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard,Firefox 56.0,"Objective:\nTo Test Credit Card Service Order with two different Gateways (PUBLIC AND GLOBAL)\n\nPre-requisites:\n\n\""Credit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.\nIn the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.\""\n\nSteps_Service Credit Card Invoicing :\n\n\""Book a Service Order with Mode of Payment - 'Credit Card'.\nAdd Parts/Labor/Others lines.\nRelease the Service Order.\nBook Actual Cost.\nCost and Invoice the Order.\nEnter Credit Card details for GlobalOnePay card 5100270000000007 and CVV 214.\nClick 'Process' in the Credit Card Interface session.\""\n\nExpected Result:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.\n\n\n",2017-11-29 14:56:42,2017-11-29 14:59:05,2m - 22.746s,PASSED
+callTestCase,Firefox 56.0,Service Order>Add Header,2017-11-29 14:56:43,2017-11-29 14:57:50,1m - 7.239s,PASSED
+callTestCase,Firefox 56.0,Service Order>Add Segment,2017-11-29 14:57:50,2017-11-29 14:58:29,38.656s,PASSED
+callTestCase,Firefox 56.0,Service Order>Add actual for Others,2017-11-29 14:58:29,2017-11-29 14:59:05,36.034s,PASSED
+callTestCase,Firefox 56.0,Service Order>CC Interface details,2017-11-29 14:59:05,2017-11-29 14:59:05,0.001s,NOT_RUN
+callTestCase,Firefox 56.0,Service Order>Header Invoice Details ie read invoice series and amount,2017-11-29 14:59:05,2017-11-29 14:59:05,0.001s,NOT_RUN
+callTestCase,Firefox 56.0,Service Order>Check open entries for CC BP and Invoice BP,2017-11-29 14:59:05,2017-11-29 14:59:05,0.000s,NOT_RUN

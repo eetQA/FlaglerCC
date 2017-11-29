@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrder
 WebUI.delay(2)
 
 'Add new BP '
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), 'BP0009610')
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), BP)
 
 WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), Keys.chord(Keys.TAB))
 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrder
 WebUI.delay(2)
 
 'Add new Unit'
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), 'EQ0128249')
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), Unit)
 
 WebUI.delay(5)
 
