@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Create header with Credit Card\r\n'
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Add a part line\r\n'
 WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : PartName, ('Qty') : Qty], 

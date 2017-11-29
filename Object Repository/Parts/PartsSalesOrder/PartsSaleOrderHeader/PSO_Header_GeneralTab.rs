@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PSO_Header_GeneralTab</name>
+   <tag></tag>
+   <elementGuidId>ffdf6f5a-3056-4c91-9fee-e203d1e5a2b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tdtre4101m002-1-pages-bar-page-1-label</value>
+   </webElementProperties>
+</WebElementEntity>

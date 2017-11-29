@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_PartsTestSuite" time="110" tests="0" failures="1" errors="0">
+   <testsuite name="Flagler_PartsTestSuite" tests="0" failures="1" errors="0" time="110" timestamp="2017-11-28 12:30:48" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Flagler_PartsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_123041"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_123041\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_123041\\1511852558353.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_123041\\1511852558737.png"/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="cf5c89f9-523b-42d4-bccc-d95d9ff13ea2"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard" classname="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)"/>
+         <system-out><![CDATA[2017-11-28 12:30:49 - [TEST_CASE][FAILED] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard: Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard FAILED because (of) Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)
+
+2017-11-28 12:30:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler' successfully
+
+2017-11-28 12:30:50 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler: Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler
+
+2017-11-28 12:30:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-28 12:30:50 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-28 12:30:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-28 12:31:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-28 12:31:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-28 12:31:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-28 12:31:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-28 12:31:01 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-28 12:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-28 12:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-28 12:31:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-28 12:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-28 12:31:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-28 12:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-28 12:31:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-28 12:31:06 - [MESSAGE][PASSED] - Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-28 12:31:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-28 12:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-28 12:31:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-28 12:31:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-28 12:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-28 12:31:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-28 12:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-28 12:31:14 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-28 12:31:14 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-28 12:31:14 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-28 12:31:14 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-28 12:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-28 12:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-28 12:31:15 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-28 12:31:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-28 12:31:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-11-28 12:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-11-28 12:31:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 12:31:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 12:31:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit' is clicked on
+
+2017-11-28 12:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit' is clicked on
+
+2017-11-28 12:31:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 12:31:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 12:31:19 - [TEST_STEP][PASSED] - sendKeys: Keys 'EQ1402768' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'
+
+2017-11-28 12:31:19 - [MESSAGE][PASSED] - Keys 'EQ1402768' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'
+
+2017-11-28 12:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-11-28 12:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-11-28 12:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-11-28 12:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-11-28 12:31:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-28 12:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-28 12:31:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_Header_GeneralTab' is clicked on
+
+2017-11-28 12:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_Header_GeneralTab' is clicked on
+
+2017-11-28 12:31:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 12:31:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 12:31:25 - [TEST_STEP][PASSED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo), "value"): Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO020074'
+
+2017-11-28 12:31:25 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO020074'
+
+2017-11-28 12:31:25 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-11-28 12:31:29 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-11-28 12:31:29 - [TEST_STEP][PASSED] - Statement - println("sale order number" + G_Part_PSO): null
+
+2017-11-28 12:31:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler' successfully
+
+2017-11-28 12:31:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-11-28 12:31:29 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1: Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1
+
+2017-11-28 12:31:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-28 12:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-28 12:31:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' is clicked on
+
+2017-11-28 12:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' is clicked on
+
+2017-11-28 12:31:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-28 12:31:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-28 12:31:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'R123438' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-11-28 12:31:36 - [MESSAGE][PASSED] - Keys 'R123438' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-11-28 12:31:36 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-11-28 12:31:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-11-28 12:31:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-11-28 12:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-11-28 12:31:43 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-11-28 12:31:44 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-11-28 12:31:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-28 12:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-28 12:31:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-28 12:31:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-28 12:31:55 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-11-28 12:31:55 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-11-28 12:31:55 - [TEST_STEP][NOT_RUN] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice)): NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-11-28 12:31:55 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-11-28 12:31:55 - [TEST_STEP][NOT_RUN] - Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty)): NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-11-28 12:31:55 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-11-28 12:31:55 - [TEST_STEP][NOT_RUN] - Statement - G_OrderLineAmt = G_FirmPrice * Qty1: NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-11-28 12:31:55 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-11-28 12:31:55 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice): NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-11-28 12:31:55 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-11-28 12:31:55 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt): NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-11-28 12:31:55 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-11-28 12:31:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-11-28 12:31:55 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC' failed)
+
+2017-11-28 12:31:55 - [TEST_CASE][FAILED] - Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC: Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC FAILED because (of) Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)
+
+2017-11-28 12:31:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-11-28 12:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-11-28 12:31:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-28 12:31:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-28 12:31:59 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-11-28 12:31:59 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-11-28 12:31:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-11-28 12:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-11-28 12:31:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 12:32:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 12:32:04 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-28 12:32:04 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-28 12:32:04 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption), 0) == true): Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)
+
+2017-11-28 12:32:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-28 12:32:38 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_123041\\1511852558353.png]]
+
+2017-11-28 12:32:39 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_123041\\1511852558737.png]]
+
+2017-11-28 12:32:39 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC' failed)]]></system-out>
+         <system-err><![CDATA[2017-11-28 12:30:49 - [TEST_CASE][FAILED] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard: Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard FAILED because (of) Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-28 12:30:48 - [TEST_SUITE][FAILED] - Flagler_PartsTestSuite: Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard FAILED because (of) Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-28 12:30:48 - [TEST_SUITE][FAILED] - Flagler_PartsTestSuite: Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard FAILED because (of) Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' located by 'By.xpath: //*[@id = 'dlg-tdtre4101m002-1-input-button-1']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

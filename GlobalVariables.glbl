@@ -2,4 +2,9 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_Part_PSO</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

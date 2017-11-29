@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Flagler_PartsTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-11-28T18:30:41</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8c09e71f-a60e-43cc-b77d-fb531faa54bf</testSuiteGuid>
+   <testCaseLink>
+      <guid>fa024196-18b5-4968-9a8a-59aee6b71605</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FLAGLER/PartsData/TC001_PartCCData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>d268aca3-aa5b-4d29-9a29-32840ad064ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Part</value>
+         <variableId>87cb9bf2-c42e-472f-b00c-d7cce8eeb529</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Qty</value>
+         <variableId>7813d51f-3121-4c08-a677-f6208a1f8ee4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PaymentGateway</value>
+         <variableId>74e21e8d-3805-42b0-bfc5-2faf92daf185</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardType</value>
+         <variableId>fbfed4dd-c5b2-4f59-b04a-725f961737c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7ca2b845-86c6-49e4-9c38-aeabd016aa8c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardNo</value>
+         <variableId>8cf4656f-8fc7-4a41-8859-e0a5cd5dd25d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

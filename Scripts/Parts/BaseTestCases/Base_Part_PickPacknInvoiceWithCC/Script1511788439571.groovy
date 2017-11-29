@@ -30,17 +30,18 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSales
 
 WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'))
+not_run: WebUI.verifyElementPresent(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'), 
+    10)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption')) == 
-true) {
-    WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'))
+not_run: if (WebUI.verifyElementPresent(findTestObject('Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'), 
+    30, FailureHandling.CONTINUE_ON_FAILURE) == true) {
+    not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption'))
 }
 
 WebUI.delay(3)
 
-not_run: if (WebUI.verifyElementVisible(findTestObject('Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose')) == 
-true) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose'), 
+    10, FailureHandling.CONTINUE_ON_FAILURE) == true) {
     WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose'))
 }
 

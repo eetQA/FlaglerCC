@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_PartsTestSuite" time="63" tests="0" failures="0" errors="0">
+   <testsuite name="Flagler_PartsTestSuite" tests="0" failures="0" errors="0" time="63" timestamp="2017-11-28 11:02:19" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Flagler_PartsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_110211"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171128_110211\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="33ed3559-8a11-45e7-9bb3-f0e1d507ee03"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard" classname="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard" status="INCOMPLETE">
+         <system-out><![CDATA[2017-11-28 11:02:20 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard: null
+
+2017-11-28 11:02:21 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' failed because of error(s))
+
+2017-11-28 11:02:21 - [TEST_CASE][ERROR] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC: Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC FAILED because (of) Variable 'G_Part_PSO' is not defined for test case.
+
+2017-11-28 11:02:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-28 11:02:21 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-28 11:02:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-28 11:02:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-28 11:02:46 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-28 11:02:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-28 11:02:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-28 11:02:46 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-28 11:02:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-28 11:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-28 11:02:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-28 11:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-28 11:02:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-28 11:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-28 11:02:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-28 11:02:52 - [MESSAGE][PASSED] - Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-28 11:02:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-28 11:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-28 11:02:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-28 11:02:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-28 11:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-28 11:02:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-28 11:03:00 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-28 11:03:00 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-28 11:03:01 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-28 11:03:01 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-28 11:03:01 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-28 11:03:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-28 11:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-28 11:03:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-28 11:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-28 11:03:01 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -50 successfully
+
+2017-11-28 11:03:08 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -50 successfully
+
+2017-11-28 11:03:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-28 11:03:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-28 11:03:13 - [TEST_STEP][PASSED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo), "value"): Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO'
+
+2017-11-28 11:03:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO'
+
+2017-11-28 11:03:13 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' failed because of error(s))
+
+2017-11-28 11:03:13 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-11-28 11:03:13 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1: null
+
+2017-11-28 11:03:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-28 11:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-28 11:03:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-28 11:03:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-28 11:03:23 - [TEST_STEP][INCOMPLETE] - setText: Finding web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' located by 'By.xpath: //input[count(. | id("tdtre4101s002-2-grid-1-tdsls401.item.segment.2-82-0-widget")) = count(id("tdtre4101s002-2-grid-1-tdsls401.item.segment.2-82-0-widget"))][count(. | //*[@maxlength = '29']) = count(//*[@maxlength = '29'])][count(. | //*[@id = 'tdtre4101s002-2-grid-1-tdsls401.item.segment.2-82-0-widget']) = count(//*[@id = 'tdtre4101s002-2-grid-1-tdsls401.item.segment.2-82-0-widget'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'TextInputField TriggerInputFieldWidget TextInputField-empty']) = count(//*[@class = 'TextInputField TriggerInputFieldWidget TextInputField-empty'])]' in '30' second(s)]]></system-out>
+         <system-err><![CDATA[2017-11-28 11:02:20 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-28 11:02:19 - [TEST_SUITE][INCOMPLETE] - Flagler_PartsTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-11-28 11:02:19 - [TEST_SUITE][INCOMPLETE] - Flagler_PartsTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>
