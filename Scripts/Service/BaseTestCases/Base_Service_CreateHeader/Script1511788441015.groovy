@@ -26,20 +26,32 @@ WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID'
 'Create a new Service Order'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton'))
 
-WebUI.delay(3)
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'))
+
+WebUI.delay(2)
 
 'Add new BP '
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), BP)
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), 'BP0009610')
 
 WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), Keys.chord(Keys.TAB))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'))
+
+WebUI.delay(2)
+
 'Add new Unit'
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), Unit)
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), 'EQ0128249')
+
+WebUI.delay(5)
 
 'Save a Service Order'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save'))
+
+WebUI.delay(2)
 
 'Skip warning messages'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning'))

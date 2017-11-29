@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_CreateHeader'), [('BP') : '', ('Unit') : ''], FailureHandling.CONTINUE_ON_FAILURE)
+
 'Select Service Type'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'))
 
@@ -27,6 +29,18 @@ WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOr
 
 not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'), Keys.chord(
         Keys.TAB))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersTab'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Priority'))
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Priority'), '1')
 
 WebUI.delay(3)
 
