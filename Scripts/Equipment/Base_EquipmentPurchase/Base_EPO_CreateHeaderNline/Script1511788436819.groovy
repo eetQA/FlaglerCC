@@ -19,59 +19,65 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tdext8150s000'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tdext8150s000'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New'), 20)
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New'))
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'))
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'), BP)
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save'))
+WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'), 'BP0009523', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action'))
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines'))
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New'), 20)
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New'))
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), 20)
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'))
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.doubleClick(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), Model, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'), '+10', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), Model)
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption'))
+WebUI.sendKeys(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'), '100', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'), '+10')
+not_run: WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'))
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'), '100')
-
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save'))
-
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO'))
-
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose'))
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose'), FailureHandling.CONTINUE_ON_FAILURE)
 

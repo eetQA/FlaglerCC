@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_EquipmentTestSuite" time="63" tests="0" failures="1" errors="0">
+   <testsuite name="Flagler_EquipmentTestSuite" tests="0" failures="1" errors="0" time="63" timestamp="2017-11-30 12:00:57" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Flagler_EquipmentTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_120048"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_120048\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_120048\\1512023518833.png"/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="2237d21c-5b34-4084-8953-ffc106acffaa"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway" classname="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: &lt;div style=&quot;z-index: 1;&quot; class=&quot;WindowManagerGlass&quot;>&lt;/div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)"/>
+         <system-out><![CDATA[2017-11-30 12:00:57 - [TEST_CASE][FAILED] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)
+
+2017-11-30 12:00:58 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-11-30 12:00:58 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)
+
+2017-11-30 12:00:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' successfully
+
+2017-11-30 12:00:58 - [TEST_CASE][PASSED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline
+
+2017-11-30 12:00:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-30 12:00:59 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-30 12:00:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-30 12:01:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-30 12:01:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-30 12:01:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-30 12:01:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-30 12:01:16 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-30 12:01:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-30 12:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-30 12:01:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-30 12:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-30 12:01:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-30 12:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-30 12:01:21 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-30 12:01:21 - [MESSAGE][PASSED] - Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-30 12:01:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-30 12:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-30 12:01:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-30 12:01:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-11-30 12:01:24 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-11-30 12:01:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-11-30 12:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-11-30 12:01:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-30 12:01:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-30 12:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-11-30 12:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-11-30 12:01:27 - [TEST_STEP][PASSED] - setText: Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-11-30 12:01:27 - [MESSAGE][PASSED] - Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-11-30 12:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-11-30 12:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-11-30 12:01:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-30 12:01:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-30 12:01:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-30 12:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-30 12:01:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-11-30 12:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-11-30 12:01:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-11-30 12:01:35 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-11-30 12:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-11-30 12:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-11-30 12:01:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-11-30 12:01:37 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-11-30 12:01:37 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is double clicked on
+
+2017-11-30 12:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is double clicked on
+
+2017-11-30 12:01:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 12:01:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 12:01:39 - [TEST_STEP][PASSED] - sendKeys: Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-11-30 12:01:39 - [MESSAGE][PASSED] - Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-11-30 12:01:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-11-30 12:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-11-30 12:01:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-11-30 12:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-11-30 12:01:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-11-30 12:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-11-30 12:01:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 12:01:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 12:01:42 - [TEST_STEP][PASSED] - setText: Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-11-30 12:01:42 - [MESSAGE][PASSED] - Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-11-30 12:01:42 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' is double clicked on
+
+2017-11-30 12:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' is double clicked on
+
+2017-11-30 12:01:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 12:01:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 12:01:44 - [TEST_STEP][PASSED] - sendKeys: Keys '100' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'
+
+2017-11-30 12:01:44 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'
+
+2017-11-30 12:01:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' is clicked on
+
+2017-11-30 12:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' is clicked on
+
+2017-11-30 12:01:44 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-30 12:01:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-30 12:01:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' is clicked on
+
+2017-11-30 12:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' is clicked on
+
+2017-11-30 12:01:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 12:01:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 12:01:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' is clicked on
+
+2017-11-30 12:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' is clicked on
+
+2017-11-30 12:01:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' successfully
+
+2017-11-30 12:01:47 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept' failed)
+
+2017-11-30 12:01:47 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)
+
+2017-11-30 12:01:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-30 12:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-30 12:01:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_SendForApproval' is clicked on
+
+2017-11-30 12:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_SendForApproval' is clicked on
+
+2017-11-30 12:01:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-30 12:01:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-30 12:01:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-30 12:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-30 12:01:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Apporve' is clicked on
+
+2017-11-30 12:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Apporve' is clicked on
+
+2017-11-30 12:01:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-30 12:01:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-30 12:01:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)
+
+2017-11-30 12:01:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_120048\\1512023518833.png]]
+
+2017-11-30 12:01:59 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept' failed)
+
+2017-11-30 12:01:59 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)]]></system-out>
+         <system-err><![CDATA[2017-11-30 12:00:57 - [TEST_CASE][FAILED] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-30 12:00:57 - [TEST_SUITE][FAILED] - Flagler_EquipmentTestSuite: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)]]></system-out>
+      <system-err><![CDATA[2017-11-30 12:00:57 - [TEST_SUITE][FAILED] - Flagler_EquipmentTestSuite: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (228, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2237d21c-5b34-4084-8953-ffc106acffaa)]]></system-err>
+   </testsuite>
+</testsuites>

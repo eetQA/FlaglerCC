@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_EquipmentTestSuite" time="381" tests="0" failures="0" errors="0">
+   <testsuite name="Flagler_EquipmentTestSuite" tests="0" failures="0" errors="0" time="381" timestamp="2017-12-01 11:32:16" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Flagler_EquipmentTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108220320.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108223672.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108256459.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108309608.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108344340.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108376358.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108429485.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108482640.png, C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108517514.png"/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="9774e3b2-e225-4469-a5ba-9822544f5a39"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway" classname="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway" status="INCOMPLETE">
+         <system-out><![CDATA[2017-12-01 11:32:16 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway: null
+
+2017-12-01 11:32:17 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-01 11:32:17 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: null
+
+2017-12-01 11:32:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' successfully
+
+2017-12-01 11:32:18 - [TEST_CASE][PASSED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline
+
+2017-12-01 11:32:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 11:32:18 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-01 11:32:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 11:32:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 11:32:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-01 11:32:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-01 11:32:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-01 11:32:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-01 11:32:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 11:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 11:32:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 11:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 11:32:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 11:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 11:32:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 11:32:42 - [MESSAGE][PASSED] - Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 11:32:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 11:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 11:32:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 11:32:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-12-01 11:32:45 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-12-01 11:32:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-12-01 11:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-12-01 11:32:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 11:32:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 11:32:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-12-01 11:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-12-01 11:32:48 - [TEST_STEP][PASSED] - setText: Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-12-01 11:32:48 - [MESSAGE][PASSED] - Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-12-01 11:32:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-12-01 11:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-12-01 11:32:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 11:32:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 11:32:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-01 11:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-01 11:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-12-01 11:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-12-01 11:32:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-12-01 11:32:56 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-12-01 11:32:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-12-01 11:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-12-01 11:32:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-12-01 11:32:58 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-12-01 11:32:58 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is double clicked on
+
+2017-12-01 11:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is double clicked on
+
+2017-12-01 11:32:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:00 - [TEST_STEP][PASSED] - sendKeys: Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-12-01 11:33:00 - [MESSAGE][PASSED] - Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-12-01 11:33:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-12-01 11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-12-01 11:33:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-12-01 11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-12-01 11:33:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-12-01 11:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-12-01 11:33:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:03 - [TEST_STEP][PASSED] - setText: Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-12-01 11:33:03 - [MESSAGE][PASSED] - Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-12-01 11:33:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' is clicked on
+
+2017-12-01 11:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' is clicked on
+
+2017-12-01 11:33:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:07 - [TEST_STEP][PASSED] - sendKeys: Keys '100' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'
+
+2017-12-01 11:33:07 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'
+
+2017-12-01 11:33:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' is clicked on
+
+2017-12-01 11:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' is clicked on
+
+2017-12-01 11:33:09 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-01 11:33:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-01 11:33:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' is clicked on
+
+2017-12-01 11:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' is clicked on
+
+2017-12-01 11:33:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' is clicked on
+
+2017-12-01 11:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' is clicked on
+
+2017-12-01 11:33:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' successfully
+
+2017-12-01 11:33:12 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-01 11:33:12 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept: null
+
+2017-12-01 11:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-01 11:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-01 11:33:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_SendForApproval' is clicked on
+
+2017-12-01 11:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_SendForApproval' is clicked on
+
+2017-12-01 11:33:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 11:33:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 11:33:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-01 11:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-01 11:33:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Apporve' is clicked on
+
+2017-12-01 11:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Apporve' is clicked on
+
+2017-12-01 11:33:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 11:33:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 11:33:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' is clicked on
+
+2017-12-01 11:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' is clicked on
+
+2017-12-01 11:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_FinalPrint' is clicked on
+
+2017-12-01 11:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_FinalPrint' is clicked on
+
+2017-12-01 11:33:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_PrintOption' is clicked on
+
+2017-12-01 11:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_PrintOption' is clicked on
+
+2017-12-01 11:33:25 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-01 11:33:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-01 11:33:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device' is visible
+
+2017-12-01 11:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device' is visible
+
+2017-12-01 11:33:35 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device' is double clicked on
+
+2017-12-01 11:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device' is double clicked on
+
+2017-12-01 11:33:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'D' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'
+
+2017-12-01 11:33:37 - [MESSAGE][PASSED] - Keys 'D' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'
+
+2017-12-01 11:33:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Continue' is clicked on
+
+2017-12-01 11:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Continue' is clicked on
+
+2017-12-01 11:33:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 11:33:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 11:33:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_EPOtab' is clicked on
+
+2017-12-01 11:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_EPOtab' is clicked on
+
+2017-12-01 11:33:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Close' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (464.5, 159.5). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 75 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9774e3b2-e225-4469-a5ba-9822544f5a39)
+
+2017-12-01 11:33:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Close' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (464.5, 159.5). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 75 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9774e3b2-e225-4469-a5ba-9822544f5a39)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108220320.png]]
+
+2017-12-01 11:33:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 11:33:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 11:33:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9774e3b2-e225-4469-a5ba-9822544f5a39)
+
+2017-12-01 11:33:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9774e3b2-e225-4469-a5ba-9822544f5a39)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108223672.png]]
+
+2017-12-01 11:33:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Action_Reciept' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Action_Reciept' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-tdext8555m000']' not found)
+
+2017-12-01 11:34:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Action_Reciept' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Action_Reciept' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-tdext8555m000']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108256459.png]]
+
+2017-12-01 11:34:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' is not present after 20 second(s)
+
+2017-12-01 11:34:37 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' is not present after 20 second(s)
+
+2017-12-01 11:34:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' located by 'By.xpath: //*[@id = 'tdext8155m000-7-button-std-file.save']' not found)
+
+2017-12-01 11:35:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' located by 'By.xpath: //*[@id = 'tdext8155m000-7-button-std-file.save']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108309608.png]]
+
+2017-12-01 11:35:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 11:35:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 11:35:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action' located by 'By.xpath: //*[@id = 'tdext8155m000-7-button-std:action']' not found)
+
+2017-12-01 11:35:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action' located by 'By.xpath: //*[@id = 'tdext8155m000-7-button-std:action']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108344340.png]]
+
+2017-12-01 11:35:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action_ReceiptLine' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action_ReceiptLine' located by 'By.xpath: //*[@id = 'tdext8155m000-7-menu-std:action-form-receipt.lines']' not found)
+
+2017-12-01 11:36:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action_ReceiptLine' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action_ReceiptLine' located by 'By.xpath: //*[@id = 'tdext8155m000-7-menu-std:action-form-receipt.lines']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108376358.png]]
+
+2017-12-01 11:36:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' is not present after 20 second(s)
+
+2017-12-01 11:36:37 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' is not present after 20 second(s)
+
+2017-12-01 11:36:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' located by 'By.xpath: //*[@id = 'tdext8156s000-8-button-std-file.new']' not found)
+
+2017-12-01 11:37:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' located by 'By.xpath: //*[@id = 'tdext8156s000-8-button-std-file.new']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108429485.png]]
+
+2017-12-01 11:37:09 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' is not present after 20 second(s)
+
+2017-12-01 11:37:30 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' is not present after 20 second(s)
+
+2017-12-01 11:37:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' located by 'By.xpath: //*[@id = 'tdext8551m001-9-grid-1-tdext851.recd-8-0-widget']' not found)
+
+2017-12-01 11:38:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' located by 'By.xpath: //*[@id = 'tdext8551m001-9-grid-1-tdext851.recd-8-0-widget']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108482640.png]]
+
+2017-12-01 11:38:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 11:38:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 11:38:05 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_SavenClose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_SavenClose' located by 'By.xpath: //*[@id = 'tdext8551m001-9-button-std-file.save_and_close']' not found)
+
+2017-12-01 11:38:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_SavenClose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_SavenClose' located by 'By.xpath: //*[@id = 'tdext8551m001-9-button-std-file.save_and_close']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171201_113207\\1512108517514.png]]
+
+2017-12-01 11:38:37 - [TEST_STEP][INCOMPLETE] - waitForElementPresent: Finding web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLineAction' located by 'By.xpath: //*[@id = 'tdext8156s000-8-button-std:action']' in '20' second(s)]]></system-out>
+         <system-err><![CDATA[2017-12-01 11:32:16 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-01 11:32:16 - [TEST_SUITE][INCOMPLETE] - Flagler_EquipmentTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-12-01 11:32:16 - [TEST_SUITE][INCOMPLETE] - Flagler_EquipmentTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

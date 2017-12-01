@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Flagler_EquipmentTestSuite,Firefox 43.0,,2017-11-30 16:24:29,2017-11-30 16:29:39,5m - 10.920s,FAILED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway,Firefox 43.0,Objective: Equipment Credit Card Sales Invoicing with different gateways\n\nSteps:\n1. 'Book an Equipment Order with Mode of Payment - 'Credit Card'.\n2. Add a configuration \n3. Confirm the delivery.\n4. Invoice the Order with Credit card\n\nExpected:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.,2017-11-30 16:24:29,2017-11-30 16:29:37,5m - 7.612s,FAILED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-30 16:24:30,2017-11-30 16:26:22,1m - 51.968s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-11-30 16:26:22,2017-11-30 16:27:11,48.571s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-30 16:27:11,2017-11-30 16:27:28,16.936s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-11-30 16:27:28,2017-11-30 16:29:37,2m - 9.012s,FAILED

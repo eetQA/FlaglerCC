@@ -19,45 +19,49 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_SalesOrderLine'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_SalesOrderLine'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New'), 20)
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New'), 20, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'), 20)
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'))
+WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'), Model)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'))
+WebUI.sendKeys(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'), Model, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'), GlobalVariable.G_Unit)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'))
+WebUI.sendKeys(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'), GlobalVariable.G_Unit, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'), '10')
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_Save'))
+WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'), '10', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_taxok'), 20)
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_taxok'))
+not_run: WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_taxok'), 
+    20, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'))
+not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_taxok'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_SavenClose'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_SavenClose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose'), FailureHandling.CONTINUE_ON_FAILURE)
 

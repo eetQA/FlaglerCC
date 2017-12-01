@@ -8,37 +8,36 @@
    <dataFileGUID>eb792e95-6032-4ff6-8c53-360a09c100e2</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>M00000010 1032 PUBL Visa+Card 4012000033330026 456</data>
-   <data>M00000010 1032 GLOBAL DEBIT+MASTERCARD 5100270000000007 456</data>
+   <data>BP0004776 1042 GLOBAL DEBIT+MASTERCARD 5100270000000007 456</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>BP</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>Model</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>Gateway</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>CCType</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>Credit Card Number</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>CVV</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

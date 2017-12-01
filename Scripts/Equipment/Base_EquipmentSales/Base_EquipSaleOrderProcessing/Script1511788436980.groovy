@@ -19,101 +19,120 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_SendForApproval'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_SendForApproval'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status'), 'Pending for Approval')
+WebUI.verifyElementText(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status'), 'Pending for Approval', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Action_Approve'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Action_Approve'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status'), 'Approved')
+WebUI.verifyElementText(findTestObject('Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status'), 'Approved', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_FinalPrint'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Print'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_FinalPrint'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_ESOOK'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Print'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_ESOOK'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device'), 'D')
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Continue'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device'), 'D', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Tab'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Continue'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Close'))
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Tab'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Close'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Action_EquipmentDelivery'))
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement'), 20)
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Action_EquipmentDelivery'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Save'))
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action_Line'))
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_New'), 20)
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_New'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action_Line'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_New'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_SelectLine'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_New'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_SelectDeliveryLine_SaveNclose'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_SelectLine'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_SelectDeliveryLine_SaveNclose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_ActionConfirm'))
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_ConfirmYes'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_ActionConfirm'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_ConfirmOk'))
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Device'), 'D')
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_ConfirmYes'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_printContinue'))
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_Action'), FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_DeliveryLine_PrintMemo'), FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_ConfirmOk'), FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.sendKeys(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Device'), 'D', FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.delay(100000, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Device'), 'D', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_printContinue'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 

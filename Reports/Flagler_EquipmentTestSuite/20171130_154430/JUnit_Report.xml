@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_EquipmentTestSuite" time="100" tests="0" failures="1" errors="0">
+   <testsuite name="Flagler_EquipmentTestSuite" tests="0" failures="1" errors="0" time="100" timestamp="2017-11-30 15:44:38" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Flagler_EquipmentTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_154430"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_154430\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_154430\\1512036975837.png"/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="60eb28f2-ba55-44cb-94f6-231b29b90ef9"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway" classname="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: &lt;div style=&quot;z-index: 1;&quot; class=&quot;WindowManagerGlass&quot;>&lt;/div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)"/>
+         <system-out><![CDATA[2017-11-30 15:44:38 - [TEST_CASE][FAILED] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)
+
+2017-11-30 15:44:39 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-11-30 15:44:39 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-11-30 15:44:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader' successfully
+
+2017-11-30 15:44:39 - [TEST_CASE][PASSED] - Test Cases/Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader: Test Cases/Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader
+
+2017-11-30 15:44:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-30 15:44:40 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-30 15:44:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-30 15:44:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-30 15:44:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-30 15:44:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-30 15:44:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-30 15:44:51 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-30 15:44:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-30 15:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-30 15:44:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-30 15:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-30 15:44:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-30 15:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-30 15:44:56 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8570m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-30 15:44:56 - [MESSAGE][PASSED] - Keys 'tdext8570m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-30 15:44:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-30 15:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-30 15:44:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-30 15:44:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is present
+
+2017-11-30 15:45:00 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is present
+
+2017-11-30 15:45:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is clicked on
+
+2017-11-30 15:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is clicked on
+
+2017-11-30 15:45:01 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_Customer'
+
+2017-11-30 15:45:04 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_Customer'
+
+2017-11-30 15:45:04 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate' is double clicked on
+
+2017-11-30 15:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate' is double clicked on
+
+2017-11-30 15:45:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:06 - [TEST_STEP][PASSED] - sendKeys: Keys '+10' sent to object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'
+
+2017-11-30 15:45:06 - [MESSAGE][PASSED] - Keys '+10' sent to object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'
+
+2017-11-30 15:45:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Tax' is clicked on
+
+2017-11-30 15:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Tax' is clicked on
+
+2017-11-30 15:45:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab' is clicked on
+
+2017-11-30 15:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab' is clicked on
+
+2017-11-30 15:45:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-30 15:45:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-30 15:45:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_PaymentMethod' is clicked on
+
+2017-11-30 15:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_PaymentMethod' is clicked on
+
+2017-11-30 15:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquimentSalesOrder_CreditCardOption' is clicked on
+
+2017-11-30 15:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquimentSalesOrder_CreditCardOption' is clicked on
+
+2017-11-30 15:45:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save' is clicked on
+
+2017-11-30 15:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save' is clicked on
+
+2017-11-30 15:45:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DetailsTab' is clicked on
+
+2017-11-30 15:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DetailsTab' is clicked on
+
+2017-11-30 15:45:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-30 15:45:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-30 15:45:20 - [TEST_STEP][PASSED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_OrderNo), "value"): Attribute 'value' of object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_OrderNo' is: 'ESA000742'
+
+2017-11-30 15:45:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_OrderNo' is: 'ESA000742'
+
+2017-11-30 15:45:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader' successfully
+
+2017-11-30 15:45:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine' successfully
+
+2017-11-30 15:45:20 - [TEST_CASE][PASSED] - Test Cases/Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine: Test Cases/Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine
+
+2017-11-30 15:45:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_SalesOrderLine' is clicked on
+
+2017-11-30 15:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_SalesOrderLine' is clicked on
+
+2017-11-30 15:45:21 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New' is present
+
+2017-11-30 15:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New' is present
+
+2017-11-30 15:45:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New' is clicked on
+
+2017-11-30 15:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New' is clicked on
+
+2017-11-30 15:45:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model' is present
+
+2017-11-30 15:45:25 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model' is present
+
+2017-11-30 15:45:25 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model' is double clicked on
+
+2017-11-30 15:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model' is double clicked on
+
+2017-11-30 15:45:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:27 - [TEST_STEP][PASSED] - sendKeys: Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'
+
+2017-11-30 15:45:27 - [MESSAGE][PASSED] - Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'
+
+2017-11-30 15:45:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit' is double clicked on
+
+2017-11-30 15:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit' is double clicked on
+
+2017-11-30 15:45:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'EQ1402777' sent to object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'
+
+2017-11-30 15:45:30 - [MESSAGE][PASSED] - Keys 'EQ1402777' sent to object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'
+
+2017-11-30 15:45:30 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price' is double clicked on
+
+2017-11-30 15:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price' is double clicked on
+
+2017-11-30 15:45:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:32 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'
+
+2017-11-30 15:45:32 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'
+
+2017-11-30 15:45:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_Save' is clicked on
+
+2017-11-30 15:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_Save' is clicked on
+
+2017-11-30 15:45:32 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-11-30 15:45:32 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-11-30 15:45:32 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-30 15:45:32 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-30 15:45:32 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-30 15:45:32 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-30 15:45:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_SavenClose' is clicked on
+
+2017-11-30 15:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_SavenClose' is clicked on
+
+2017-11-30 15:45:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose' is clicked on
+
+2017-11-30 15:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose' is clicked on
+
+2017-11-30 15:45:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine' successfully
+
+2017-11-30 15:45:37 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing' failed)
+
+2017-11-30 15:45:37 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing: Test Cases/Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)
+
+2017-11-30 15:45:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_SendForApproval' is clicked on
+
+2017-11-30 15:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_SendForApproval' is clicked on
+
+2017-11-30 15:45:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status' are matched.
+
+2017-11-30 15:45:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status' are matched.
+
+2017-11-30 15:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Action_Approve' is clicked on
+
+2017-11-30 15:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Action_Approve' is clicked on
+
+2017-11-30 15:45:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:45:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status' are matched.
+
+2017-11-30 15:45:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Equipment/EquipmentSales/EquipSalesOrder_Process/EquipSalesOrder_Status' are matched.
+
+2017-11-30 15:45:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print' is clicked on
+
+2017-11-30 15:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print' is clicked on
+
+2017-11-30 15:45:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_FinalPrint' is clicked on
+
+2017-11-30 15:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_FinalPrint' is clicked on
+
+2017-11-30 15:45:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Print' is clicked on
+
+2017-11-30 15:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Print' is clicked on
+
+2017-11-30 15:45:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_ESOOK' is clicked on
+
+2017-11-30 15:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_ESOOK' is clicked on
+
+2017-11-30 15:45:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:45:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:45:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device' is clicked on
+
+2017-11-30 15:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device' is clicked on
+
+2017-11-30 15:46:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-30 15:46:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-30 15:46:02 - [TEST_STEP][PASSED] - setText: Text 'D' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device'
+
+2017-11-30 15:46:03 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Device'
+
+2017-11-30 15:46:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Continue' is clicked on
+
+2017-11-30 15:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Print_Continue' is clicked on
+
+2017-11-30 15:46:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-30 15:46:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-30 15:46:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Tab' is clicked on
+
+2017-11-30 15:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Tab' is clicked on
+
+2017-11-30 15:46:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Close' is clicked on
+
+2017-11-30 15:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Print_Close' is clicked on
+
+2017-11-30 15:46:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-30 15:46:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-30 15:46:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action' is clicked on
+
+2017-11-30 15:46:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Action_EquipmentDelivery' is clicked on
+
+2017-11-30 15:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Action_EquipmentDelivery' is clicked on
+
+2017-11-30 15:46:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement' is present
+
+2017-11-30 15:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement' is present
+
+2017-11-30 15:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement' is clicked on
+
+2017-11-30 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Agreement' is clicked on
+
+2017-11-30 15:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Save' is clicked on
+
+2017-11-30 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Save' is clicked on
+
+2017-11-30 15:46:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-30 15:46:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-30 15:46:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)
+
+2017-11-30 15:46:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_EquipmentTestSuite\\20171130_154430\\1512036975837.png]]
+
+2017-11-30 15:46:16 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing' failed)]]></system-out>
+         <system-err><![CDATA[2017-11-30 15:44:38 - [TEST_CASE][FAILED] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-30 15:44:38 - [TEST_SUITE][FAILED] - Flagler_EquipmentTestSuite: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)]]></system-out>
+      <system-err><![CDATA[2017-11-30 15:44:38 - [TEST_SUITE][FAILED] - Flagler_EquipmentTestSuite: Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentDelivery/ESO_Delivery_Action' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (622, 79.01666259765625). Other element would receive the click: <div style="z-index: 1;" class="WindowManagerGlass"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60eb28f2-ba55-44cb-94f6-231b29b90ef9)]]></system-err>
+   </testsuite>
+</testsuites>

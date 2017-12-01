@@ -15672,3 +15672,158 @@ Session ID: 7590dc7d-0941-4e0c-a307-6befd0669660)</message>
   <message>Test data is internal data, reading internal data</message>
   <nestedLevel>0</nestedLevel>
 </record>
+<record>
+  <date>2017-11-29T17:01:16</date>
+  <millis>1511955076886</millis>
+  <sequence>30284</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>839</thread>
+  <message>Finding test data with id &amp;apos;Data Files/FLAGLER/PartsData/TC002_PartsSplit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:01:16</date>
+  <millis>1511955076889</millis>
+  <sequence>30285</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>839</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:04:23</date>
+  <millis>1511955263094</millis>
+  <sequence>31634</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>865</thread>
+  <message>Finding test data with id &amp;apos;Data Files/FLAGLER/PartsData/TC002_PartsSplit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:04:23</date>
+  <millis>1511955263098</millis>
+  <sequence>31635</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>865</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:09:08</date>
+  <millis>1511955548964</millis>
+  <sequence>34753</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>837</thread>
+  <message>Finding test data with id &amp;apos;Data Files/FLAGLER/PartsData/TC002_PartsSplit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:09:08</date>
+  <millis>1511955548966</millis>
+  <sequence>34754</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>837</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:10:11</date>
+  <millis>1511955611518</millis>
+  <sequence>34815</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>837</thread>
+  <message>Finding test data with id &amp;apos;Data Files/FLAGLER/PartsData/TC002_PartsSplit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:10:11</date>
+  <millis>1511955611521</millis>
+  <sequence>34816</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>837</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:14:57</date>
+  <millis>1511955897393</millis>
+  <sequence>35860</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>835</thread>
+  <message>Finding test data with id &amp;apos;Data Files/FLAGLER/PartsData/TC002_PartsSplit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:14:57</date>
+  <millis>1511955897396</millis>
+  <sequence>35861</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>835</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:24:05</date>
+  <millis>1511956445767</millis>
+  <sequence>37009</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>991</thread>
+  <message>Finding test data with id &amp;apos;Data Files/FLAGLER/PartsData/TC002_PartsSplit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:24:05</date>
+  <millis>1511956445787</millis>
+  <sequence>37010</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>991</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:51:21</date>
+  <millis>1511958081760</millis>
+  <sequence>38139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1034</thread>
+  <message>Finding test data with id &amp;apos;Data Files/FLAGLER/PartsData/TC002_PartsSplit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-11-29T17:51:21</date>
+  <millis>1511958081763</millis>
+  <sequence>38140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1034</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

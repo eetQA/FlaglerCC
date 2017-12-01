@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Flagler_EquipmentTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-12-01T11:41:21</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>4bf6639b-9070-4a98-bfb0-0f5260876a04</testSuiteGuid>
+   <testCaseLink>
+      <guid>166db952-d00d-478a-873e-47799cf118cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7813d820-aca7-4781-bc74-d9ccd0bfbc62</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FLAGLER/EquipmentData/TC001_EquipmentMultiCC</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7813d820-aca7-4781-bc74-d9ccd0bfbc62</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>241b19f7-b41c-4a14-9827-4cdfa37badd2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7813d820-aca7-4781-bc74-d9ccd0bfbc62</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Model</value>
+         <variableId>91433cf0-3719-48d6-bc25-b63a242e6636</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7813d820-aca7-4781-bc74-d9ccd0bfbc62</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gateway</value>
+         <variableId>95ca5434-35cf-481c-b45f-59ac252e8bb7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7813d820-aca7-4781-bc74-d9ccd0bfbc62</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CCType</value>
+         <variableId>87d93445-d630-4809-8d8e-301eda926ef9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7813d820-aca7-4781-bc74-d9ccd0bfbc62</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Credit Card Number</value>
+         <variableId>8cb51953-42be-41e7-86bd-ab82186d3a22</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7813d820-aca7-4781-bc74-d9ccd0bfbc62</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV</value>
+         <variableId>c449e66c-3502-420f-ba09-d009629d1386</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

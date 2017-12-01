@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Flagler_PartsTestSuite,Firefox 43.0,,2017-11-29 17:51:29,2017-11-29 17:54:27,2m - 58.958s,INCOMPLETE
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard,Firefox 43.0,,2017-11-29 17:51:29,2017-11-29 17:54:27,2m - 58.493s,INCOMPLETE
+callTestCase,Firefox 43.0,,2017-11-29 17:51:30,2017-11-29 17:52:13,43.102s,PASSED
+callTestCase,Firefox 43.0,Add Line\r\n,2017-11-29 17:52:13,2017-11-29 17:52:40,26.561s,PASSED
+callTestCase,Firefox 43.0,Invoice through Split Payment two cc and one cash\r\n,2017-11-29 17:52:40,2017-11-29 17:54:27,1m - 47.956s,INCOMPLETE

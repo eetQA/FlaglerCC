@@ -31,7 +31,9 @@ WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHe
 
 WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'))
 
-WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'), 
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'), 
     '+10')
 
 WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Tax'))

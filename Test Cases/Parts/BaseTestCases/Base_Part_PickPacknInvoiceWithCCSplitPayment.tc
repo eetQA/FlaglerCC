@@ -22,14 +22,14 @@
       <name>CardType1</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'5100270000000007'</defaultValue>
       <description></description>
       <id>4838902b-2518-460d-bba3-a0cbdca82964</id>
       <masked>false</masked>
       <name>CardNumber1</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'256'</defaultValue>
       <description></description>
       <id>ede74ed8-6eec-4461-aa99-dcf70a20a2fd</id>
       <masked>false</masked>

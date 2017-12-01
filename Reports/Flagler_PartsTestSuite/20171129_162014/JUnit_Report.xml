@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_PartsTestSuite" time="110" tests="0" failures="0" errors="1">
+   <testsuite name="Flagler_PartsTestSuite" tests="0" failures="0" errors="1" time="110" timestamp="2017-11-29 16:20:23" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Flagler_PartsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171129_162014"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\FlaglerCC\\Reports\\Flagler_PartsTestSuite\\20171129_162014\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="783b97d9-b8c1-4130-9301-1b857bcac5fc"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard" classname="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard" status="ERROR">
+         <error type="ERROR" message="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.String, com.kms.katalon.core.model.FailureHandling) values: [*********Line 1: Credit Card Started***********************, ...]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)"/>
+         <system-out><![CDATA[2017-11-29 16:20:23 - [TEST_CASE][ERROR] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.String, com.kms.katalon.core.model.FailureHandling) values: [*********Line 1: Credit Card Started***********************, ...]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+
+2017-11-29 16:20:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler' successfully
+
+2017-11-29 16:20:24 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler: Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler
+
+2017-11-29 16:20:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 16:20:25 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-29 16:20:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 16:20:37 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 16:20:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-29 16:20:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-29 16:20:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-29 16:20:37 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-29 16:20:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 16:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 16:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 16:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 16:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 16:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 16:20:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 16:20:42 - [MESSAGE][PASSED] - Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 16:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 16:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 16:20:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 16:20:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-29 16:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-11-29 16:20:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-29 16:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-11-29 16:20:51 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-29 16:20:51 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-11-29 16:20:51 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-29 16:20:51 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-29 16:20:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-29 16:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-11-29 16:20:51 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-29 16:20:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-29 16:20:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-11-29 16:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-11-29 16:20:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:20:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:20:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit' is clicked on
+
+2017-11-29 16:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit' is clicked on
+
+2017-11-29 16:20:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:20:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:20:56 - [TEST_STEP][PASSED] - sendKeys: Keys 'EQ1402768' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'
+
+2017-11-29 16:20:56 - [MESSAGE][PASSED] - Keys 'EQ1402768' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_Unit'
+
+2017-11-29 16:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-11-29 16:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-11-29 16:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-11-29 16:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-11-29 16:20:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 16:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 16:20:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_Header_GeneralTab' is clicked on
+
+2017-11-29 16:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_Header_GeneralTab' is clicked on
+
+2017-11-29 16:20:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:21:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:21:02 - [TEST_STEP][PASSED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo), "value"): Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO020107'
+
+2017-11-29 16:21:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'PSO020107'
+
+2017-11-29 16:21:02 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-11-29 16:21:06 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-11-29 16:21:06 - [TEST_STEP][PASSED] - Statement - println("sale order number" + G_Part_PSO): null
+
+2017-11-29 16:21:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler' successfully
+
+2017-11-29 16:21:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-11-29 16:21:06 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1: Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1
+
+2017-11-29 16:21:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-29 16:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-11-29 16:21:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' is clicked on
+
+2017-11-29 16:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' is clicked on
+
+2017-11-29 16:21:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:21:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:21:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'R123438' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-11-29 16:21:14 - [MESSAGE][PASSED] - Keys 'R123438' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-11-29 16:21:14 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-11-29 16:21:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-11-29 16:21:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-11-29 16:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-11-29 16:21:21 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-11-29 16:21:22 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-11-29 16:21:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 16:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-11-29 16:21:23 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-29 16:21:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-29 16:21:33 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-11-29 16:21:33 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-11-29 16:21:33 - [TEST_STEP][NOT_RUN] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice)): NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-11-29 16:21:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-11-29 16:21:33 - [TEST_STEP][NOT_RUN] - Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty)): NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-11-29 16:21:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-11-29 16:21:33 - [TEST_STEP][NOT_RUN] - Statement - G_OrderLineAmt = G_FirmPrice * Qty1: NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-11-29 16:21:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-11-29 16:21:33 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice): NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-11-29 16:21:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-11-29 16:21:33 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt): NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-11-29 16:21:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-11-29 16:21:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-11-29 16:21:33 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' failed because of error(s))
+
+2017-11-29 16:21:33 - [TEST_CASE][ERROR] - Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment: Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.String, com.kms.katalon.core.model.FailureHandling) values: [*********Line 1: Credit Card Started***********************, ...]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+
+2017-11-29 16:21:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-11-29 16:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-11-29 16:21:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:21:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:21:37 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-11-29 16:21:37 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-11-29 16:21:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-11-29 16:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-11-29 16:21:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:21:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:21:42 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-29 16:21:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-29 16:21:42 - [TEST_STEP][NOT_RUN] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true): NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true)
+
+2017-11-29 16:21:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true)
+
+2017-11-29 16:21:42 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-29 16:21:42 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-29 16:21:42 - [TEST_STEP][NOT_RUN] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true): NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-11-29 16:21:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-11-29 16:21:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is present
+
+2017-11-29 16:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is present
+
+2017-11-29 16:21:42 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is double clicked on
+
+2017-11-29 16:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device' is double clicked on
+
+2017-11-29 16:21:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:21:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:21:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'D' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device'
+
+2017-11-29 16:21:45 - [MESSAGE][PASSED] - Keys 'D' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Device'
+
+2017-11-29 16:21:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Continue' is clicked on
+
+2017-11-29 16:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PSO_PackingSlip_Continue' is clicked on
+
+2017-11-29 16:21:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-11-29 16:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-11-29 16:21:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:21:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:21:53 - [TEST_STEP][PASSED] - setText: Text 'GLOBAL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-11-29 16:21:53 - [MESSAGE][PASSED] - Text 'GLOBAL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-11-29 16:21:53 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-11-29 16:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-11-29 16:21:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:21:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:21:55 - [TEST_STEP][PASSED] - setText: Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-11-29 16:21:55 - [MESSAGE][PASSED] - Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-11-29 16:21:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:21:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:21:58 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-11-29 16:21:58 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-11-29 16:21:58 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 16:21:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 16:21:58 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 16:21:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 16:21:58 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 16:21:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 16:21:58 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 16:21:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 16:21:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-11-29 16:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-11-29 16:21:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-11-29 16:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-11-29 16:21:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:22:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:22:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-11-29 16:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-11-29 16:22:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:22:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:22:07 - [TEST_STEP][PASSED] - Statement - G_OrderAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal)): Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '131.68'
+
+2017-11-29 16:22:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '131.68'
+
+2017-11-29 16:22:07 - [TEST_STEP][PASSED] - Statement - G_SplitOrderAmt2 = G_OrderAmt - 2: null
+
+2017-11-29 16:22:07 - [TEST_STEP][PASSED] - Statement - println(G_SplitOrderAmt1): null
+
+2017-11-29 16:22:07 - [TEST_STEP][PASSED] - Statement - println(G_SplitOrderAmt2): null
+
+2017-11-29 16:22:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:22:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:22:09 - [TEST_STEP][PASSED] - comment: null
+
+2017-11-29 16:22:09 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2017-11-29 16:20:23 - [TEST_CASE][ERROR] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.String, com.kms.katalon.core.model.FailureHandling) values: [*********Line 1: Credit Card Started***********************, ...]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-29 16:20:23 - [TEST_SUITE][ERROR] - Flagler_PartsTestSuite: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.String, com.kms.katalon.core.model.FailureHandling) values: [*********Line 1: Credit Card Started***********************, ...]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)]]></system-out>
+      <system-err><![CDATA[2017-11-29 16:20:23 - [TEST_SUITE][ERROR] - Flagler_PartsTestSuite: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.String, com.kms.katalon.core.model.FailureHandling) values: [*********Line 1: Credit Card Started***********************, ...]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)]]></system-err>
+   </testsuite>
+</testsuites>
