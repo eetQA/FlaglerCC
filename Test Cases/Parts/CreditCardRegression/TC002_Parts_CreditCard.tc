@@ -75,4 +75,11 @@
       <masked>false</masked>
       <name>cvv2</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5f78647-3661-41c8-97d4-1a66d8117d2d</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
 </TestCaseEntity>

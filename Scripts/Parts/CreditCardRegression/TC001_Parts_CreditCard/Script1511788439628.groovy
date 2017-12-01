@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Create header with Credit Card\r\n'
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC_Flagler'), [('BP') : BP, ('Unit') : Unit], 
+    FailureHandling.STOP_ON_FAILURE)
 
 'Add a part line\r\n'
 WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : PartName, ('Qty') : Qty], 
@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1')
 
 'Ship line, Invoice the Order using Credit card\r\n'
 WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC'), [('Gateway') : GateWay, ('CardType') : CardType
-        , ('CardNumber') : CardNumber], FailureHandling.STOP_ON_FAILURE)
+        , ('CardNumber') : CardNumber], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Get the invoice details like Invoice No. Invoice Amount'
 WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_GetInvoiceDetails'), [:], FailureHandling.STOP_ON_FAILURE)

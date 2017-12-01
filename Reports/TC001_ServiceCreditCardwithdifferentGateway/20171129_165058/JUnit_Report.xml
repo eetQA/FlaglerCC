@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC001_ServiceCreditCardwithdifferentGateway" time="161" tests="0" failures="1" errors="0">
+   <testsuite name="TC001_ServiceCreditCardwithdifferentGateway" tests="0" failures="1" errors="0" time="161" timestamp="2017-11-29 16:51:06" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/TC001_ServiceCreditCardwithdifferentGateway">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954565424.png, C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954598197.png, C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954603972.png, C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954607605.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="fbdf3cc9-b2a3-49d5-8ac6-ef65bbb0c41c"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard" classname="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element &lt;div tabindex=&quot;0&quot; class=&quot;Button MenuButton TextButton&quot; id=&quot;tssoc2110m002-1-button-std:action&quot; draggable=&quot;true&quot;>&lt;/div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: &lt;div class=&quot;WindowManagerGlass&quot; style=&quot;z-index: 1;&quot;>&lt;/div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)"/>
+         <system-out><![CDATA[2017-11-29 16:51:06 - [TEST_CASE][FAILED] - Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tssoc2110m002-1-button-std:action" draggable="true"></div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+
+2017-11-29 16:51:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' successfully
+
+2017-11-29 16:51:07 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_CreateHeader: Test Cases/Service/BaseTestCases/Base_Service_CreateHeader
+
+2017-11-29 16:51:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 16:51:07 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-29 16:51:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 16:51:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 16:51:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-29 16:51:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-29 16:51:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-29 16:51:22 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-29 16:51:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 16:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 16:51:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 16:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 16:51:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 16:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 16:51:25 - [TEST_STEP][PASSED] - sendKeys: Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 16:51:25 - [MESSAGE][PASSED] - Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 16:51:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 16:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 16:51:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 16:51:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-29 16:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-29 16:51:29 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-29 16:51:37 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-29 16:51:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer' is clicked on
+
+2017-11-29 16:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer' is clicked on
+
+2017-11-29 16:51:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:51:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:51:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'BP0009610' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 16:51:39 - [MESSAGE][PASSED] - Keys 'BP0009610' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 16:51:39 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 16:51:39 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-29 16:51:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:51:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit' is clicked on
+
+2017-11-29 16:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit' is clicked on
+
+2017-11-29 16:51:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:51:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:51:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'EQ0128249' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-29 16:51:45 - [MESSAGE][PASSED] - Keys 'EQ0128249' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-29 16:51:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:51:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:51:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-29 16:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-29 16:51:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-29 16:51:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-29 16:51:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-11-29 16:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-11-29 16:51:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:51:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-11-29 16:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-11-29 16:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-11-29 16:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-11-29 16:51:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:52:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:52:00 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-29 16:52:00 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-29 16:52:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-29 16:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-29 16:52:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:52:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:52:05 - [TEST_STEP][PASSED] - Statement - SWOOrderNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo), "value"): Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO011865'
+
+2017-11-29 16:52:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO011865'
+
+2017-11-29 16:52:06 - [TEST_STEP][PASSED] - verifyNotEqual: Actual object 'SWO011865' and expected object '' are not equal
+
+2017-11-29 16:52:06 - [MESSAGE][PASSED] - Actual object 'SWO011865' and expected object '' are not equal
+
+2017-11-29 16:52:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:52:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:52:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-29 16:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-29 16:52:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:52:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:52:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' is clicked on
+
+2017-11-29 16:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' is clicked on
+
+2017-11-29 16:52:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:52:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:52:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' successfully
+
+2017-11-29 16:52:17 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' failed)
+
+2017-11-29 16:52:17 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_AddSegment: Test Cases/Service/BaseTestCases/Base_Service_AddSegment FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tssoc2110m002-1-button-std:action" draggable="true"></div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+
+2017-11-29 16:52:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' is clicked on
+
+2017-11-29 16:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' is clicked on
+
+2017-11-29 16:52:18 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-29 16:52:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-29 16:52:22 - [TEST_STEP][PASSED] - setText: Text 'ABC' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'
+
+2017-11-29 16:52:22 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'
+
+2017-11-29 16:52:22 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-29 16:52:22 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-29 16:52:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:52:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:52:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersTab' is clicked on
+
+2017-11-29 16:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersTab' is clicked on
+
+2017-11-29 16:52:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:52:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:52:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Priority' is clicked on
+
+2017-11-29 16:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Priority' is clicked on
+
+2017-11-29 16:52:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:52:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:52:31 - [TEST_STEP][PASSED] - sendKeys: Keys '1' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Priority'
+
+2017-11-29 16:52:32 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Priority'
+
+2017-11-29 16:52:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:52:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:52:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' is clicked on
+
+2017-11-29 16:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' is clicked on
+
+2017-11-29 16:52:35 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-29 16:52:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-29 16:52:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tssoc2110m002-1-button-std:action" draggable="true"></div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+
+2017-11-29 16:52:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tssoc2110m002-1-button-std:action" draggable="true"></div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+[[ATTACHMENT|C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954565424.png]]
+
+2017-11-29 16:52:45 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' failed)
+
+2017-11-29 16:52:45 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' failed)
+
+2017-11-29 16:52:45 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_Add Others: Test Cases/Service/BaseTestCases/Base_Service_Add Others FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' located by 'By.xpath: //*[@id = 'tssoc2110m002-1-menu-std:action-form-estimated.others']' not found)
+
+2017-11-29 16:52:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' located by 'By.xpath: //*[@id = 'tssoc2110m002-1-menu-std:action-form-estimated.others']' not found)
+
+2017-11-29 16:53:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' located by 'By.xpath: //*[@id = 'tssoc2110m002-1-menu-std:action-form-estimated.others']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954598197.png]]
+
+2017-11-29 16:53:18 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' failed)
+
+2017-11-29 16:53:18 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' failed)
+
+2017-11-29 16:53:18 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice: Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton Button-focus" id="tssoc2100m001-0-button-std:action" draggable="true"></div> is not clickable at point (645, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+
+2017-11-29 16:53:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 16:53:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 16:53:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton Button-focus" id="tssoc2100m001-0-button-std:action" draggable="true"></div> is not clickable at point (645, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+
+2017-11-29 16:53:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton Button-focus" id="tssoc2100m001-0-button-std:action" draggable="true"></div> is not clickable at point (645, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 82 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+[[ATTACHMENT|C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954603972.png]]
+
+2017-11-29 16:53:24 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' failed)
+
+2017-11-29 16:53:24 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' failed)
+
+2017-11-29 16:53:24 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_GetInvoice: Test Cases/Service/BaseTestCases/Base_Service_GetInvoice FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button FormButton Transparent" id="tssoc2100m001-0-show.invoices" style="position: absolute; left: 1285px; top: 48px; overflow: hidden; width: 29px;"></div> is not clickable at point (1304, 191). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+
+2017-11-29 16:53:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 16:53:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 16:53:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession' is clicked on
+
+2017-11-29 16:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession' is clicked on
+
+2017-11-29 16:53:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button FormButton Transparent" id="tssoc2100m001-0-show.invoices" style="position: absolute; left: 1285px; top: 48px; overflow: hidden; width: 29px;"></div> is not clickable at point (1304, 191). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+
+2017-11-29 16:53:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button FormButton Transparent" id="tssoc2100m001-0-show.invoices" style="position: absolute; left: 1285px; top: 48px; overflow: hidden; width: 29px;"></div> is not clickable at point (1304, 191). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 79 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)
+[[ATTACHMENT|C:\\Users\\agawhande\\Katalon Studio\\FlaglerCreditCard\\Reports\\TC001_ServiceCreditCardwithdifferentGateway\\20171129_165058\\1511954607605.png]]
+
+2017-11-29 16:53:27 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' failed)
+
+2017-11-29 16:53:27 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' (Root cause: Call Test Case 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' failed because of error(s))
+
+2017-11-29 16:53:27 - [TEST_CASE][ERROR] - Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1: Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1 FAILED because (of) Variable 'G_InvoiceTnxType' is not defined for test case.
+
+2017-11-29 16:53:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 16:53:28 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-29 16:53:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 16:53:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-29 16:53:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-11-29 16:53:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-29 16:53:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-29 16:53:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-29 16:53:36 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-29 16:53:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 16:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-29 16:53:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 16:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-29 16:53:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 16:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-29 16:53:41 - [TEST_STEP][PASSED] - sendKeys: Keys 'tfacr2520m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 16:53:41 - [MESSAGE][PASSED] - Keys 'tfacr2520m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-29 16:53:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 16:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-29 16:53:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-29 16:53:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType' is clicked on
+
+2017-11-29 16:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType' is clicked on
+
+2017-11-29 16:53:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-29 16:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-29 16:53:47 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-29 16:53:47 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' (Root cause: Call Test Case 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2017-11-29 16:51:06 - [TEST_CASE][FAILED] - Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tssoc2110m002-1-button-std:action" draggable="true"></div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-29 16:51:06 - [TEST_SUITE][FAILED] - TC001_ServiceCreditCardwithdifferentGateway: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tssoc2110m002-1-button-std:action" draggable="true"></div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)]]></system-out>
+      <system-err><![CDATA[2017-11-29 16:51:06 - [TEST_SUITE][FAILED] - TC001_ServiceCreditCardwithdifferentGateway: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tssoc2110m002-1-button-std:action" draggable="true"></div> is not clickable at point (825, 123.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 978c4e7d-62a2-4014-8c07-cb474e484b4e)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -22,9 +22,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'))
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'), PartName)
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'), PartName)
 
 WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'), 10)
 

@@ -4,7 +4,7 @@
    <name>TC001_ServiceCreditCardwithdifferentGateway</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-29T15:55:05</lastRun>
+   <lastRun>2017-11-29T16:50:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

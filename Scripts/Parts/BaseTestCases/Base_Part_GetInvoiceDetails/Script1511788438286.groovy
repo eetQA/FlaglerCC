@@ -27,13 +27,15 @@ WebUI.setText(findTestObject('Parts/cisli245/cisli245_package'), 'ci')
 
 WebUI.doubleClick(findTestObject('Parts/cisli245/cisli245_module'))
 
-WebUI.setText(findTestObject('Parts/cisli245/cisli245_module'), 'sli')
-
 WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Parts/cisli245/cisli245_module'), 'sli')
 
 WebUI.doubleClick(findTestObject('Parts/cisli245/cisli245_table'))
 
-WebUI.setText(findTestObject('Parts/cisli245/cisli245_table'), '245')
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Parts/cisli245/cisli245_table'), '245')
 
 WebUI.click(findTestObject('Parts/cisli245/cisli245_ok'))
 
@@ -41,15 +43,33 @@ not_run: WebUI.doubleClick(findTestObject('ttaad4500/input_ttaad4500    -0-flno-
 
 WebUI.click(findTestObject('Parts/cisli245/cisli245_find'))
 
-WebUI.doubleClick(findTestObject('Parts/cisli245/cisli245_SaleOrder'))
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Parts/cisli245/cisli245_SaleOrder'), GlobalVariable.G_Part_PSO)
+WebUI.click(findTestObject('Parts/cisli245/cisli245_SaleOrder'))
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Parts/cisli245/cisli245_SaleOrder'), GlobalVariable.G_Part_PSO)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Parts/cisli245/cisli245_oksearch'))
 
 WebUI.delay(3)
 
-WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_OrderNo'), 'value')
+order = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_OrderNo'), 'value')
+
+for (int i = 0; i = 100; i++) {
+    order = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_OrderNo'), 'value')
+
+    if (order != GlobalVariable.G_Part_PSO) {
+        WebUI.click(findTestObject('Parts/cisli245/cisli245_Previous'))
+
+        WebUI.delay(3)
+    } else {
+        break
+    }
+}
 
 GlobalVariable.G_InvoiceTnxType = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_invoice1'), 'value')
 

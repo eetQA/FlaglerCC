@@ -102,16 +102,20 @@ WebUI.delay(3)
 'Enter Expiry Month 09'
 WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'), '09')
 
+WebUI.delay(2)
+
 'Enter Expiry Year 99'
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'), '99')
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'), '99')
+
+WebUI.delay(2)
 
 'Click on Process button of CC Interface'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Process'))
 
-WebUI.delay(13)
+not_run: WebUI.delay(13)
 
 'Click Print Button'
-WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintOK'))
+not_run: WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintOK'))
 
 WebUI.delay(10)
 
