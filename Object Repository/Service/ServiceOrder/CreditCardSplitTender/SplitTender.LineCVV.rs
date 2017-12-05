@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext8105m000-33-grid-1-xiext805.cvv2.rq-15-0</value>
+      <value>xiext8105m000-4-grid-1-xiext805.cvv2.rq-15-0-widget</value>
    </webElementProperties>
 </WebElementEntity>

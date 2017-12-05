@@ -4,7 +4,7 @@
    <name>Flagler_ServiceInvoice_SplitTenderTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-12-04T18:39:44</lastRun>
+   <lastRun>2017-12-05T15:22:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

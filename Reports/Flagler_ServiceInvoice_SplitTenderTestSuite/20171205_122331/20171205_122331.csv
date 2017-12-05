@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Flagler_ServiceInvoice_SplitTenderTestSuite,Firefox 56.0,,2017-12-05 12:23:42,2017-12-05 12:30:51,7m - 9.670s,FAILED
+,,,,,,
+Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender,Firefox 56.0,,2017-12-05 12:23:42,2017-12-05 12:30:50,7m - 8.248s,FAILED
+callTestCase,Firefox 56.0,,2017-12-05 12:23:43,2017-12-05 12:25:05,1m - 22.041s,PASSED
+callTestCase,Firefox 56.0,,2017-12-05 12:25:05,2017-12-05 12:25:44,38.694s,PASSED
+callTestCase,Firefox 56.0,Service Order>Add Others line,2017-12-05 12:25:44,2017-12-05 12:26:20,36.290s,PASSED
+callTestCase,Firefox 56.0,,2017-12-05 12:26:20,2017-12-05 12:29:27,3m - 7.157s,PASSED
+callTestCase,Firefox 56.0,Service Order>Read Header Invoice details ie InvoiceNo and InvAmt SSI 100006679,2017-12-05 12:29:27,2017-12-05 12:29:37,10.017s,PASSED
+callTestCase,Firefox 56.0,Checked Open Entries for CC BP and Invoice BP,2017-12-05 12:29:37,2017-12-05 12:30:50,1m - 13.066s,FAILED

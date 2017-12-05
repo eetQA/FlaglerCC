@@ -148,8 +148,12 @@ WebUI.delay(5)
 'Click on CVV '
 WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'))
 
+WebUI.delay(2)
+
 'Pass CVV variable'
 WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'), CVV1)
+
+WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineOrderAmount1'), 4)
 
@@ -282,9 +286,9 @@ WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCredit
 WebUI.delay(13)
 
 'Click Print Button'
-WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.PrintOK'))
+not_run: WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.PrintOK'))
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
 'Click OK of Print Device'
 WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.PrintDevice'))
