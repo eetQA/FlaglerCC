@@ -38,20 +38,41 @@
       <description></description>
       <id>f8a6dd66-4561-4397-8ca0-2338ec947009</id>
       <masked>false</masked>
-      <name>CardType</name>
+      <name>CardType1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>01067620-36a5-4755-a822-977f5ef806ac</id>
       <masked>false</masked>
-      <name>CCNo</name>
+      <name>CCNo1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>6b2b9031-f79f-43ac-98b6-a58fb60c87cc</id>
       <masked>false</masked>
-      <name>CVV</name>
+      <name>CVV1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b271afce-0aa0-4ae6-b121-e08488a69e34</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee8e2505-8677-4a05-a2f5-2e4bd19c4e40</id>
+      <masked>false</masked>
+      <name>CCNo2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff7c0ba0-8bba-4015-8a4a-76972e969c73</id>
+      <masked>false</masked>
+      <name>CVV2</name>
    </variable>
 </TestCaseEntity>

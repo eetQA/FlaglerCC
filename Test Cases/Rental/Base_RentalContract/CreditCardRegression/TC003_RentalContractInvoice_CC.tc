@@ -40,4 +40,11 @@
       <masked>false</masked>
       <name>CVVTC</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9fa9f3e2-9479-4260-9244-0ac300e5328c</id>
+      <masked>false</masked>
+      <name>model</name>
+   </variable>
 </TestCaseEntity>

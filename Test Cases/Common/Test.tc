@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b633e8b8-b857-4756-b5e0-b20ba4c90814</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f216acfa-167c-4ac7-9d25-405a81775473</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>5d4f164a-0bdd-4fb7-851b-aff64d6c1979</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+</TestCaseEntity>

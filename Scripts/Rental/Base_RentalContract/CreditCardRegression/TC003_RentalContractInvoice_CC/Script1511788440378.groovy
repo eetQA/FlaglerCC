@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Purchase Unit using EPO'
-WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve'), [('BP') : BP, ('Model') : model], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 'Create a Rental Header using above Unit'
 WebUI.callTestCase(findTestCase('Rental/Base_RentalContract/Base_CreateRentalHeader'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)

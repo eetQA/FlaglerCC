@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_SendForApproval'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -39,9 +41,9 @@ WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Pri
 
 WebUI.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'), 20)
+WebUI.waitForElementVisible(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'), FailureHandling.STOP_ON_FAILURE)
+WebUI.doubleClick(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 

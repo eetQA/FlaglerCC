@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_RentalTestSuite" time="124" tests="0" failures="0" errors="0">
+   <testsuite name="Flagler_RentalTestSuite" tests="0" failures="0" errors="0" time="124" timestamp="2017-12-01 14:37:28" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/Flagler_RentalTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_143719"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_143719\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_143719\\1512119364440.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="b6f88d02-ced5-483d-a7e5-e5798e2bd6cf"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" status="INCOMPLETE">
+         <system-out><![CDATA[2017-12-01 14:37:29 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null
+
+2017-12-01 14:37:29 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-12-01 14:37:29 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-12-01 14:37:29 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-01 14:37:30 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: null
+
+2017-12-01 14:37:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 14:37:30 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-01 14:37:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:38:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:38:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-01 14:38:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-01 14:38:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-01 14:38:01 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-01 14:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 14:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 14:38:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 14:38:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 14:38:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 14:38:04 - [MESSAGE][PASSED] - Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 14:38:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 14:38:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 14:38:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-12-01 14:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-12-01 14:38:09 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-12-01 14:38:10 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-12-01 14:38:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:38:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:38:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-12-01 14:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-12-01 14:38:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:38:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:38:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-12-01 14:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-12-01 14:38:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:38:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:38:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-12-01 14:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-12-01 14:38:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:38:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-12-01 14:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-12-01 14:38:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:38:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-12-01 14:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-12-01 14:38:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:38:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:38:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-12-01 14:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-12-01 14:38:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:38:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:38:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-12-01 14:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-12-01 14:38:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:38:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:38:41 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-12-01 14:38:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-12-01 14:38:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:38:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:38:52 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-12-01 14:38:52 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-12-01 14:38:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-12-01 14:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-12-01 14:38:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:38:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:38:58 - [TEST_STEP][PASSED] - setText: Text 'EQ1402809' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-12-01 14:38:58 - [MESSAGE][PASSED] - Text 'EQ1402809' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-12-01 14:38:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:39:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:39:03 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-01 14:39:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-01 14:39:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:39:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:39:09 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-12-01 14:39:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-12-01 14:39:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:39:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:39:09 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-12-01 14:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-12-01 14:39:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:39:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:39:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-12-01 14:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-12-01 14:39:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:39:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:39:14 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-12-01 14:39:14 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-12-01 14:39:14 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-01 14:39:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-01 14:39:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-12-01 14:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-12-01 14:39:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:39:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:39:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="erext4501m001-1-button-std:action" draggable="true"></div> is not clickable at point (707.7833251953125, 446.01666259765625). Other element would receive the click: <div class="Inner" style=""></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6f88d02-ced5-483d-a7e5-e5798e2bd6cf)
+
+2017-12-01 14:39:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="erext4501m001-1-button-std:action" draggable="true"></div> is not clickable at point (707.7833251953125, 446.01666259765625). Other element would receive the click: <div class="Inner" style=""></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6f88d02-ced5-483d-a7e5-e5798e2bd6cf)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_143719\\1512119364440.png]]
+
+2017-12-01 14:39:24 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-01 14:39:33 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-01 14:39:33 - [TEST_STEP][INCOMPLETE] - click: Finding web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.Release' located by 'By.xpath: //*[@id = 'erext4501m001-1-menu-std:action-form-to.erext4201m001']' in '30' second(s)]]></system-out>
+         <system-err><![CDATA[2017-12-01 14:37:29 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-01 14:37:28 - [TEST_SUITE][INCOMPLETE] - Flagler_RentalTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-12-01 14:37:28 - [TEST_SUITE][INCOMPLETE] - Flagler_RentalTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

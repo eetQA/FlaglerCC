@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Flagler_RentalTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-12-04T19:14:18</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8330464f-5ebd-4b4f-967d-3fb97fd4556c</testSuiteGuid>
+   <testCaseLink>
+      <guid>4ebaec5f-d56e-4bca-9a71-5e028e5a73e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c553ac35-0ca8-4d85-aaf9-024f0470cfbf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FLAGLER/RentalData/RentalCC1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c553ac35-0ca8-4d85-aaf9-024f0470cfbf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>698cc410-490f-4c9e-88bc-eaca79b8a359</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c553ac35-0ca8-4d85-aaf9-024f0470cfbf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Payment Gateway</value>
+         <variableId>3699d626-24d9-4dcf-9c26-77c41c4a8e1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c553ac35-0ca8-4d85-aaf9-024f0470cfbf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CCType</value>
+         <variableId>367da996-cf82-444a-9d00-5abc26355172</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c553ac35-0ca8-4d85-aaf9-024f0470cfbf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CCNo</value>
+         <variableId>3828aa2d-ed55-4628-9ff1-b392ad85379a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c553ac35-0ca8-4d85-aaf9-024f0470cfbf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV</value>
+         <variableId>08dd2d4a-aedc-4522-9dc8-891295935010</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c553ac35-0ca8-4d85-aaf9-024f0470cfbf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Model</value>
+         <variableId>9fa9f3e2-9479-4260-9244-0ac300e5328c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

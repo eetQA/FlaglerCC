@@ -4,7 +4,7 @@
    <name>Flagler_EquipmentTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-12-01T11:41:21</lastRun>
+   <lastRun>2017-12-04T19:10:44</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

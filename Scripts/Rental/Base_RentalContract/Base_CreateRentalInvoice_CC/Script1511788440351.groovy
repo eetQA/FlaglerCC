@@ -21,87 +21,88 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.callTestCase(findTestCase('Rental/Base_RentalContract/Base_CreateRentalHeader'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.Action'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(0)
+WebUI.delay(0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'CC Inteface_Please check IDs'
-WebUI.delay(0)
+WebUI.delay(0, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pass Payment Gateway variable'
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), PaymentGatwayTC)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), PaymentGatwayTC, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), Keys.chord(
-        Keys.TAB))
+        Keys.TAB), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click on Card Type'
-WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'))
+WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pass Card Type variable '
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), CardTypeTC)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), CardTypeTC, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Select CC No.'
-WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'))
+WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pass CC No Variable'
-WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), CCNOTC)
+WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), CCNOTC, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click on CVV '
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pass CVV variable'
-WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVVTC)
+WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVVTC, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), Keys.chord(Keys.TAB))
+not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), Keys.chord(Keys.TAB), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.delay(3)
+not_run: WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Enter Expiry Month 09'
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'), '09')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'), '09', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Enter Expiry Year 99'
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'), '99')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'), '99', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click on Process button of CC Interface'
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(13)
+WebUI.delay(13, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click OK of Print Device'
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click Print Button'
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tfacr2520m000-0-grid-1-balc.ninv-20-0</value>
+      <value>tfacr2520m000-0-grid-1-balc.ninv-20-0-widget</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Flagler_RentalTestSuite,Firefox 56.0,,2017-12-01 14:25:54,2017-12-01 14:27:37,1m - 43.552s,INCOMPLETE
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC,Firefox 56.0,,2017-12-01 14:25:54,2017-12-01 14:27:37,1m - 43.110s,INCOMPLETE
+callTestCase,Firefox 56.0,,2017-12-01 14:25:55,2017-12-01 14:27:37,1m - 42.204s,INCOMPLETE

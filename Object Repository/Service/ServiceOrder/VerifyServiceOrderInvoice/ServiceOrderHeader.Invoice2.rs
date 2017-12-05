@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>cisli2555m001-7-grid-1-cisli255.idoc-3-0-widget</value>
+      <value>cisli2555m001-6-grid-1-cisli255.idoc-3-0-widget</value>
    </webElementProperties>
 </WebElementEntity>

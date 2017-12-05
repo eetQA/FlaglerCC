@@ -21,135 +21,143 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'erext4100s004'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Customer'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Customer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Customer'), BP)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Customer'), BP, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.CustPO'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.CustPO'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.OtherDetailsTab'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.OtherDetailsTab'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/Rental Contract.ModeOfPayment'))
+WebUI.click(findTestObject('Rental/RentalHeader/Rental Contract.ModeOfPayment'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.CreditCardoption'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.CreditCardoption'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.GeneralTab'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.GeneralTab'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Newbuttonline'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Newbuttonline'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SetLine'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SetLine'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.Unit'), 5)
+WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.Unit'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.getText(findTestObject('Rental/RentalHeader/RentalContract.Unit'))
+not_run: WebUI.getText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Unit'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Unit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), GlobalVariable.G_Unit)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), GlobalVariable.G_Unit, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), 5)
+WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'))
+WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'))
+not_run: WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+not_run: WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'), 10)
+WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.delay(2)
+not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'))
+WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'))
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'), '100')
+WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'), '100', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SaveHeader'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SaveHeader'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Action'))
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.insuranceNo'))
 
-WebUI.delay(8)
+not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Release'))
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.TextClose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(12)
+not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.ActionDelivery'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Action'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(6)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.ConfirmDelivery'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Release'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(8)
+WebUI.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Rental/RentalHeader/RentalContract.DeliveryProceed'), 20)
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.ActionDelivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.delay(2)
+WebUI.delay(6, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.DeliveryProceed'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.ConfirmDelivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(12)
+WebUI.delay(8, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.waitForElementPresent(findTestObject('Rental/RentalHeader/RentalContract.ActionDelivery'), 20)
+not_run: WebUI.waitForElementPresent(findTestObject('Rental/RentalHeader/RentalContract.DeliveryProceed'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.delay(3)
+not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SelectDeviceD'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.DeliveryProceed'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(8)
+WebUI.delay(12, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspetionReportClose'))
+not_run: WebUI.waitForElementPresent(findTestObject('Rental/RentalHeader/RentalContract.ActionDelivery'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+not_run: WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.BillofLaddingClosed'))
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SelectDeviceD'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+not_run: WebUI.delay(8, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.EqipRentalMemoclosed'))
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspetionReportClose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+not_run: WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspectionOrdergnerated'))
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.BillofLaddingClosed'), FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.EqipRentalMemoclosed'), FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspectionOrdergnerated'), FailureHandling.CONTINUE_ON_FAILURE)
 

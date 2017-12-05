@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Objective:
+To Test Credit Card Service Order with two different Gateways (PUBLIC AND GLOBAL)
+
+Pre-requisites:
+
+&quot;Credit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.
+In the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.&quot;
+
+Steps_Service Credit Card Invoicing :
+
+&quot;Book a Service Order with Mode of Payment - 'Credit Card'.
+Add Parts/Labor/Others lines.
+Release the Service Order.
+Book Actual Cost.
+Cost and Invoice the Order.
+Enter Credit Card details for GlobalOnePay card 5100270000000007 and CVV 214.
+Click 'Process' in the Credit Card Interface session.&quot;
+
+Expected Result:
+Two invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.
+
+
+</description>
+   <name>TC001_ServiceInvoice_CCWithDiffGateway</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cd4142f-38b1-4f7c-a7d0-96f5d1d51a6c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8aebcaa9-dc52-4caa-8433-fe1a97fb69c3</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e7db3c8-427d-48e4-ba43-078b0d6db219</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ae61352-ce29-48c1-a35e-05fbf7c7d840</id>
+      <masked>false</masked>
+      <name>CostComp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a95ec47c-2cc9-4526-99da-521a98e394eb</id>
+      <masked>false</masked>
+      <name>CCNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6afa4c15-a922-4da6-90ce-649f961e0f41</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ee03de7-137f-48ec-9917-fbea01d792df</id>
+      <masked>false</masked>
+      <name>CardType_TC1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f1fa8bb-be2b-49b0-b120-d61b44b4f3f6</id>
+      <masked>false</masked>
+      <name>PaymentGate_TC1</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Flagler_ServiceInvoicediffGatewayTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-12-04T17:25:18</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>22c9c5f8-fbd1-4ada-812e-85187b31e4b0</testSuiteGuid>
+   <testCaseLink>
+      <guid>8a86d04d-998c-43d7-add9-e4610899f0c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Service/CreditCardRegression/TC001_ServiceInvoice_CCWithDiffGateway</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>79ff7613-29d9-4f36-8a17-79706920f4cc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FLAGLER/ServiceData/ServiceCC_WithdiffGateway</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>79ff7613-29d9-4f36-8a17-79706920f4cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>8aebcaa9-dc52-4caa-8433-fe1a97fb69c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79ff7613-29d9-4f36-8a17-79706920f4cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Unit</value>
+         <variableId>8e7db3c8-427d-48e4-ba43-078b0d6db219</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79ff7613-29d9-4f36-8a17-79706920f4cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CostComp</value>
+         <variableId>5ae61352-ce29-48c1-a35e-05fbf7c7d840</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79ff7613-29d9-4f36-8a17-79706920f4cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CCNo</value>
+         <variableId>a95ec47c-2cc9-4526-99da-521a98e394eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79ff7613-29d9-4f36-8a17-79706920f4cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV</value>
+         <variableId>6afa4c15-a922-4da6-90ce-649f961e0f41</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79ff7613-29d9-4f36-8a17-79706920f4cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CCType</value>
+         <variableId>0ee03de7-137f-48ec-9917-fbea01d792df</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>79ff7613-29d9-4f36-8a17-79706920f4cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Payment Gateway</value>
+         <variableId>8f1fa8bb-be2b-49b0-b120-d61b44b4f3f6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_RentalTestSuite" time="103" tests="0" failures="0" errors="0">
+   <testsuite name="Flagler_RentalTestSuite" tests="0" failures="0" errors="0" time="103" timestamp="2017-12-01 14:25:54" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/Flagler_RentalTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_142544"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_142544\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_142544\\1512118605222.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_142544\\1512118636675.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="45bbdbf8-31aa-48a8-9b81-3bb61612b0de"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" status="INCOMPLETE">
+         <system-out><![CDATA[2017-12-01 14:25:54 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null
+
+2017-12-01 14:25:55 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-01 14:25:55 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: null
+
+2017-12-01 14:25:56 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-01 14:25:56 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: null
+
+2017-12-01 14:25:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 14:25:56 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-01 14:25:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:26:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:26:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-01 14:26:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-01 14:26:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-01 14:26:28 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-01 14:26:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 14:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 14:26:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 14:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 14:26:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 14:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 14:26:33 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 14:26:33 - [MESSAGE][PASSED] - Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 14:26:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 14:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 14:26:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 14:26:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-12-01 14:26:36 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-12-01 14:26:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-12-01 14:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-12-01 14:26:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:26:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:26:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-12-01 14:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-12-01 14:26:39 - [TEST_STEP][PASSED] - setText: Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-12-01 14:26:39 - [MESSAGE][PASSED] - Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-12-01 14:26:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-12-01 14:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-12-01 14:26:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:26:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:26:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton Button-disabled" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (794.7833251953125, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 83 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 45bbdbf8-31aa-48a8-9b81-3bb61612b0de)
+
+2017-12-01 14:26:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton Button-disabled" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (794.7833251953125, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 83 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 45bbdbf8-31aa-48a8-9b81-3bb61612b0de)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_142544\\1512118605222.png]]
+
+2017-12-01 14:26:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-display.lines']' not found)
+
+2017-12-01 14:27:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-display.lines']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_142544\\1512118636675.png]]
+
+2017-12-01 14:27:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is not present after 20 second(s)
+
+2017-12-01 14:27:37 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is not present after 20 second(s)
+
+2017-12-01 14:27:37 - [TEST_STEP][INCOMPLETE] - click: Finding web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' located by 'By.xpath: //*[@id = 'tdext8551m000-1-button-std-file.new']' in '30' second(s)]]></system-out>
+         <system-err><![CDATA[2017-12-01 14:25:54 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-01 14:25:54 - [TEST_SUITE][INCOMPLETE] - Flagler_RentalTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-12-01 14:25:54 - [TEST_SUITE][INCOMPLETE] - Flagler_RentalTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

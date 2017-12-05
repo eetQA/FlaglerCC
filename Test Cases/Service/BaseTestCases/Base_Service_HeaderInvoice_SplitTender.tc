@@ -6,33 +6,61 @@
    <comment>***********************Line1 started***********************
 ***********************Line2 started***********************
 ***********************Line3 started***********************</comment>
-   <testCaseGuid>3e0a08c4-588e-4637-90fa-52fcbc6a3243</testCaseGuid>
+   <testCaseGuid>e49caa76-b561-4713-bfcb-e3048bd8d6fb</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>abfca4d0-acef-4b4f-95a8-c5d2299bed75</id>
+      <id>04427dd2-cf78-4697-ac86-fc389205ee77</id>
       <masked>false</masked>
-      <name>CCNo</name>
+      <name>CCNo1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c8fa6d07-2cac-491c-b1b4-f4bd239ce6e5</id>
+      <id>aa26f8c4-e61d-40ec-ba25-406025695b18</id>
       <masked>false</masked>
-      <name>CVV</name>
+      <name>CVV1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5ea2e5dc-b099-4c92-bca6-a83c9ff9e20e</id>
+      <id>61829ba6-422f-478d-8c9c-c1f5da28b5ec</id>
       <masked>false</masked>
       <name>PaymentGate</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>612da764-0113-4fad-910f-5096867f0f7b</id>
+      <id>dd141e14-b55e-4e6c-9eb7-654ed4c7f4dd</id>
       <masked>false</masked>
-      <name>CardType</name>
+      <name>CardType1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23c3e864-4276-4abf-b38c-ce9581bab785</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>742c01aa-8036-4d61-9073-c0c22a6b3c70</id>
+      <masked>false</masked>
+      <name>CCNo2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aef58966-b753-4025-8a87-e60ed4bd86b0</id>
+      <masked>false</masked>
+      <name>CVV2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4124b180-f036-409d-93a7-2ae4b5caaaad</id>
+      <masked>false</masked>
+      <name>BP</name>
    </variable>
 </TestCaseEntity>

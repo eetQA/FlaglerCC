@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Flagler_RentalTestSuite,Firefox 56.0,,2017-12-01 12:23:16,2017-12-01 12:26:55,3m - 39.107s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC,Firefox 56.0,,2017-12-01 12:23:16,2017-12-01 12:26:54,3m - 38.171s,FAILED
+callTestCase,Firefox 56.0,,2017-12-01 12:23:19,2017-12-01 12:25:12,1m - 53.552s,PASSED
+callTestCase,Firefox 56.0,Create a Rental Header using above Unit,2017-12-01 12:25:12,2017-12-01 12:26:10,58.041s,FAILED
+callTestCase,Firefox 56.0,Create Rental Invoice using CC with diff Gateway,2017-12-01 12:26:10,2017-12-01 12:26:54,43.856s,FAILED

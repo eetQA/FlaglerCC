@@ -51,6 +51,8 @@ WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), Model, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption'), FailureHandling.CONTINUE_ON_FAILURE)

@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>erext4505m002-9-button-std:action</value>
+      <value>erext4505m002-4-button-std:action</value>
    </webElementProperties>
 </WebElementEntity>

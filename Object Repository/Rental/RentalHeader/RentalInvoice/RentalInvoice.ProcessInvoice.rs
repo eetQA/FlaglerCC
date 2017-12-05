@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>erext4505m002-9-menu-std:action-form-exec.user.0-label</value>
+      <value>erext4505m002-4-menu-std:action-form-exec.user.0-label</value>
    </webElementProperties>
 </WebElementEntity>

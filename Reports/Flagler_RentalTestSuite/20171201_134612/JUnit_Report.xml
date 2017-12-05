@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_RentalTestSuite" time="745" tests="0" failures="0" errors="0">
+   <testsuite name="Flagler_RentalTestSuite" tests="0" failures="0" errors="0" time="745" timestamp="2017-12-01 14:00:37" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/Flagler_RentalTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117084234.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117136058.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117170215.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117201352.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117232334.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117268383.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117299316.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117350915.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117402775.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117506531.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117514411.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117516610.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117520870.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117526141.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117566391.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117610527.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117648526.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117688674.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117740784.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117778021.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="30422d2e-fae8-4d69-974c-5d756ceb6447"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" status="INCOMPLETE">
+         <system-out><![CDATA[2017-12-01 14:00:38 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null
+
+2017-12-01 14:00:39 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-12-01 14:00:39 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve FAILED because (of) Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/HomePage/HomePage_more' located by 'By.xpath: //div[count(. | //*[@id = '-overflow']) = count(//*[@id = '-overflow'])]' not found)
+
+2017-12-01 14:00:39 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-12-01 14:00:39 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline FAILED because (of) Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/HomePage/HomePage_more' located by 'By.xpath: //div[count(. | //*[@id = '-overflow']) = count(//*[@id = '-overflow'])]' not found)
+
+2017-12-01 14:00:40 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-12-01 14:00:40 - [TEST_CASE][FAILED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession FAILED because (of) Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/HomePage/HomePage_more' located by 'By.xpath: //div[count(. | //*[@id = '-overflow']) = count(//*[@id = '-overflow'])]' not found)
+
+2017-12-01 14:00:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:00:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:00:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-01 14:00:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-01 14:00:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-01 14:00:52 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-01 14:00:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/HomePage/HomePage_more' located by 'By.xpath: //div[count(. | //*[@id = '-overflow']) = count(//*[@id = '-overflow'])]' not found)
+
+2017-12-01 14:01:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/HomePage/HomePage_more' located by 'By.xpath: //div[count(. | //*[@id = '-overflow']) = count(//*[@id = '-overflow'])]' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117084234.png]]
+
+2017-12-01 14:01:24 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-12-01 14:01:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is not present after 20 second(s)
+
+2017-12-01 14:01:45 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is not present after 20 second(s)
+
+2017-12-01 14:01:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' located by 'By.xpath: //*[@id = 'tdext8150s000-0-button-std-file.new']' not found)
+
+2017-12-01 14:02:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' located by 'By.xpath: //*[@id = 'tdext8150s000-0-button-std-file.new']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117136058.png]]
+
+2017-12-01 14:02:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:02:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:02:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' located by 'By.xpath: //*[@id = 'tdext8150s000-0-tdext850.otbp-1-lookup-widget']' not found)
+
+2017-12-01 14:02:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' located by 'By.xpath: //*[@id = 'tdext8150s000-0-tdext850.otbp-1-lookup-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117170215.png]]
+
+2017-12-01 14:02:50 - [TEST_STEP][FAILED] - setText: Unable to set text 'BP0009523' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' located by 'By.xpath: //*[@id = 'tdext8150s000-0-tdext850.otbp-1-lookup-widget']' not found)
+
+2017-12-01 14:03:21 - [MESSAGE][FAILED] - Unable to set text 'BP0009523' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' located by 'By.xpath: //*[@id = 'tdext8150s000-0-tdext850.otbp-1-lookup-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117201352.png]]
+
+2017-12-01 14:03:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' located by 'By.xpath: //*[@id = 'tdext8150s000-0-button-std-file.save']' not found)
+
+2017-12-01 14:03:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' located by 'By.xpath: //*[@id = 'tdext8150s000-0-button-std-file.save']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117232334.png]]
+
+2017-12-01 14:03:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:03:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:03:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' located by 'By.xpath: //*[@id = 'tdext8150s000-0-button-std:action']' not found)
+
+2017-12-01 14:04:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' located by 'By.xpath: //*[@id = 'tdext8150s000-0-button-std:action']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117268383.png]]
+
+2017-12-01 14:04:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-display.lines']' not found)
+
+2017-12-01 14:04:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-display.lines']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117299316.png]]
+
+2017-12-01 14:04:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is not present after 20 second(s)
+
+2017-12-01 14:05:20 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is not present after 20 second(s)
+
+2017-12-01 14:05:20 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' located by 'By.xpath: //*[@id = 'tdext8551m000-1-button-std-file.new']' not found)
+
+2017-12-01 14:05:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' located by 'By.xpath: //*[@id = 'tdext8551m000-1-button-std-file.new']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117350915.png]]
+
+2017-12-01 14:05:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is not present after 20 second(s)
+
+2017-12-01 14:06:11 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is not present after 20 second(s)
+
+2017-12-01 14:06:11 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.mcod-11-lookup-widget']' not found)
+
+2017-12-01 14:06:42 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.mcod-11-lookup-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117402775.png]]
+
+2017-12-01 14:06:42 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-12-01 14:06:42 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-12-01 14:06:42 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-01 14:06:42 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: null
+
+2017-12-01 14:06:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 14:06:43 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-01 14:06:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:06:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-01 14:06:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-01 14:06:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-01 14:06:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-01 14:06:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-01 14:06:55 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-01 14:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 14:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-01 14:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 14:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-01 14:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 14:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-01 14:06:57 - [TEST_STEP][PASSED] - sendKeys: Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 14:06:58 - [MESSAGE][PASSED] - Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-01 14:06:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 14:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-01 14:06:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-01 14:06:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-12-01 14:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-12-01 14:07:04 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-12-01 14:07:04 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-12-01 14:07:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:07:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-12-01 14:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-12-01 14:07:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:07:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:07:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-12-01 14:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-12-01 14:07:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:07:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:07:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-12-01 14:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-12-01 14:07:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:07:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:07:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-12-01 14:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-12-01 14:07:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:07:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:07:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-12-01 14:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-12-01 14:07:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:07:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-12-01 14:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-12-01 14:07:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:07:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:07:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-12-01 14:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-12-01 14:07:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:07:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:07:36 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-12-01 14:07:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-12-01 14:07:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-01 14:07:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-01 14:07:39 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-12-01 14:07:39 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-12-01 14:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-12-01 14:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-12-01 14:07:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:07:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:07:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-12-01 14:07:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-12-01 14:07:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:07:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:07:49 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-12-01 14:07:49 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-12-01 14:07:49 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:07:49 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:07:49 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-12-01 14:07:49 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-12-01 14:07:49 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:07:49 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:07:49 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-01 14:07:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-01 14:07:49 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-12-01 14:07:49 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-12-01 14:07:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:07:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:07:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' located by 'By.xpath: //*[@id = 'item_1-label']' not found)
+
+2017-12-01 14:08:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' located by 'By.xpath: //*[@id = 'item_1-label']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117506531.png]]
+
+2017-12-01 14:08:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:08:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:08:31 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-12-01 14:08:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-12-01 14:08:31 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:08:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:08:31 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-12-01 14:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-12-01 14:08:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:08:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:08:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: org.openqa.selenium.WebDriverException: Element <label class="Label TextOutputField" id="erext4501m001-1-grid-1-erext401.prwd-36-0-widget"></label> is not clickable at point (1322, 564.5333251953125). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 104 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+
+2017-12-01 14:08:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: org.openqa.selenium.WebDriverException: Element <label class="Label TextOutputField" id="erext4501m001-1-grid-1-erext401.prwd-36-0-widget"></label> is not clickable at point (1322, 564.5333251953125). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 104 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117514411.png]]
+
+2017-12-01 14:08:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-01 14:08:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-01 14:08:36 - [TEST_STEP][FAILED] - setText: Unable to set text '100' of object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: org.openqa.selenium.InvalidElementStateException: Element must be user-editable in order to clear it.
+Command duration or timeout: 41 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+
+2017-12-01 14:08:36 - [MESSAGE][FAILED] - Unable to set text '100' of object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: org.openqa.selenium.InvalidElementStateException: Element must be user-editable in order to clear it.
+Command duration or timeout: 41 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117516610.png]]
+
+2017-12-01 14:08:36 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-01 14:08:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-01 14:08:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button" id="erext4100s004-0-button-std-file.save" draggable="true"></div> is not clickable at point (51, 79). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 78 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+
+2017-12-01 14:08:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button" id="erext4100s004-0-button-std-file.save" draggable="true"></div> is not clickable at point (51, 79). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 78 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117520870.png]]
+
+2017-12-01 14:08:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:08:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:08:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="erext4501m001-1-button-std:action" draggable="true"></div> is not clickable at point (707.7833251953125, 446.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 87 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+
+2017-12-01 14:08:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="erext4501m001-1-button-std:action" draggable="true"></div> is not clickable at point (707.7833251953125, 446.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 87 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30422d2e-fae8-4d69-974c-5d756ceb6447)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117526141.png]]
+
+2017-12-01 14:08:46 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-01 14:08:54 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-01 14:08:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Release' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.Release' located by 'By.xpath: //*[@id = 'erext4501m001-1-menu-std:action-form-to.erext4201m001']' not found)
+
+2017-12-01 14:09:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Release' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.Release' located by 'By.xpath: //*[@id = 'erext4501m001-1-menu-std:action-form-to.erext4201m001']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117566391.png]]
+
+2017-12-01 14:09:26 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-12-01 14:09:38 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-12-01 14:09:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' located by 'By.xpath: //*[@id = 'erext9502m001-2-button-std:action']' not found)
+
+2017-12-01 14:10:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' located by 'By.xpath: //*[@id = 'erext9502m001-2-button-std:action']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117610527.png]]
+
+2017-12-01 14:10:10 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2017-12-01 14:10:16 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2017-12-01 14:10:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' located by 'By.xpath: //*[@id = 'erext9502m001-2-menu-std:action-form-confirm.delv']' not found)
+
+2017-12-01 14:10:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' located by 'By.xpath: //*[@id = 'erext9502m001-2-menu-std:action-form-confirm.delv']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117648526.png]]
+
+2017-12-01 14:10:48 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-01 14:10:56 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-01 14:10:56 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-12-01 14:10:56 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-12-01 14:10:56 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:10:56 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:10:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' located by 'By.xpath: //*[@id = 'dlg-erext9502m001-2-input-button-0']' not found)
+
+2017-12-01 14:11:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' located by 'By.xpath: //*[@id = 'dlg-erext9502m001-2-input-button-0']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117688674.png]]
+
+2017-12-01 14:11:28 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-12-01 14:11:40 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-12-01 14:11:40 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-12-01 14:11:40 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-12-01 14:11:40 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-01 14:11:40 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-01 14:11:40 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-01 14:11:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-01 14:11:40 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-01 14:11:48 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-01 14:11:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' located by 'By.xpath: //*[@id = 'ttstpsplopen-5-button-std-file.close-label']' not found)
+
+2017-12-01 14:12:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' located by 'By.xpath: //*[@id = 'ttstpsplopen-5-button-std-file.close-label']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117740784.png]]
+
+2017-12-01 14:12:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:12:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:12:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' located by 'By.xpath: //*[@id = 'ttstpsplopen-6-button-std-file.close-label']' not found)
+
+2017-12-01 14:12:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' located by 'By.xpath: //*[@id = 'ttstpsplopen-6-button-std-file.close-label']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171201_134612\\1512117778021.png]]
+
+2017-12-01 14:12:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-01 14:13:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-01 14:13:03 - [TEST_STEP][INCOMPLETE] - click: Finding web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.EqipRentalMemoclosed' located by 'By.xpath: //*[@id = 'ttstpsplopen-8-button-std-file.close-label']' in '30' second(s)]]></system-out>
+         <system-err><![CDATA[2017-12-01 14:00:38 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-01 14:00:37 - [TEST_SUITE][INCOMPLETE] - Flagler_RentalTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-12-01 14:00:37 - [TEST_SUITE][INCOMPLETE] - Flagler_RentalTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

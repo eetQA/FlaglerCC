@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ttstpsplopen-5-button-std-file.close-label</value>
+      <value>ttstpsplopen-4-button-form-exec.cont.process</value>
    </webElementProperties>
 </WebElementEntity>

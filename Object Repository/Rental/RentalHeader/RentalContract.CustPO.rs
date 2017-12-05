@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>erext4100s004-0-erext400.corn-8-decorator</value>
+      <value>erext4100s004-0-erext400.corn-8</value>
    </webElementProperties>
 </WebElementEntity>

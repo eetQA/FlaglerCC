@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>erext4203m001-10-button-form-exec.cont.process-label</value>
+      <value>erext4203m001-5-button-form-exec.cont.process-label</value>
    </webElementProperties>
 </WebElementEntity>
