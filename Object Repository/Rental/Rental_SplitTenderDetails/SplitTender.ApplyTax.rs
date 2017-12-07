@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext8105m000-12-menu-std:action-form-apply.tax</value>
+      <value>xiext8105m000-8-menu-std:action-form-apply.tax</value>
    </webElementProperties>
 </WebElementEntity>

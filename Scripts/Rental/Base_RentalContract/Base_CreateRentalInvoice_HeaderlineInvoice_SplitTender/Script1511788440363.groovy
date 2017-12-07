@@ -61,6 +61,8 @@ WebUI.delay(2)
 'Select CC No.'
 WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'))
 
+WebUI.delay(5)
+
 'Pass CC No Variable'
 WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), CCNo1)
 
@@ -69,8 +71,10 @@ WebUI.delay(5)
 'Click on CVV '
 WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'))
 
+WebUI.delay(5)
+
 'Pass CVV variable'
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVV1)
+WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVV1)
 
 not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), Keys.chord(Keys.TAB))
 
@@ -80,6 +84,8 @@ WebUI.delay(8)
 
 'Enter Expiry Month 09'
 WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'), '09')
+
+WebUI.delay(5)
 
 'Enter Expiry Year 99'
 WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'), '99')

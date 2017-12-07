@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext6102m000-11-cardno-7-lookup-widget</value>
+      <value>xiext6102m000-6-cardno-7-lookup-widget</value>
    </webElementProperties>
 </WebElementEntity>

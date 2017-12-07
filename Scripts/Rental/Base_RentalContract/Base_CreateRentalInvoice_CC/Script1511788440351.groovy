@@ -37,21 +37,24 @@ WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'CC Inteface_Please check IDs'
-WebUI.delay(0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pass Payment Gateway variable'
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), PaymentGatwayTC, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), PaymentGatwayTC, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), Keys.chord(
         Keys.TAB), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click on Card Type'
 WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), FailureHandling.CONTINUE_ON_FAILURE)
+
+'CC Inteface_Please check IDs'
+WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pass Card Type variable '
 WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), CardTypeTC, FailureHandling.CONTINUE_ON_FAILURE)
@@ -61,6 +64,9 @@ WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 'Select CC No.'
 WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), FailureHandling.CONTINUE_ON_FAILURE)
 
+'CC Inteface_Please check IDs'
+WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
+
 'Pass CC No Variable'
 WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), CCNOTC, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -68,6 +74,8 @@ WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click on CVV '
 WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Pass CVV variable'
 WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVVTC, FailureHandling.CONTINUE_ON_FAILURE)
@@ -82,8 +90,12 @@ WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 'Enter Expiry Month 09'
 WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'), '09', FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
 'Enter Expiry Year 99'
 WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'), '99', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click on Process button of CC Interface'
 WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process'), FailureHandling.CONTINUE_ON_FAILURE)

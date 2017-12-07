@@ -8,7 +8,7 @@
    <dataFileGUID>c2c14cf7-0d14-427c-a5ad-5cb1031b44c8</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>M00000010 1032 PUBL Visa+Card 4012000033330026 456 Visa 4111123400062020 456</data>
+   <data>BP0004776 1042 GLOBAL DEBIT+MASTERCARD 5100270000000007 456 VISA 4000060000000055 214</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>BP</name>

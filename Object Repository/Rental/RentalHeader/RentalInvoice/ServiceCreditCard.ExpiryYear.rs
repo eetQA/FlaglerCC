@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext6102m000-11-exp.year-11-decorator</value>
+      <value>xiext6102m000-6-exp.year-11</value>
    </webElementProperties>
 </WebElementEntity>

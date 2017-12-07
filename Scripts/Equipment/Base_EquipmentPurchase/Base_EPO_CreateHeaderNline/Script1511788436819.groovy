@@ -45,7 +45,9 @@ WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_N
 
 WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.doubleClick(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 

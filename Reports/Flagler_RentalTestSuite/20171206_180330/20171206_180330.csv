@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Flagler_RentalTestSuite,Firefox 56.0,,2017-12-06 18:03:38,2017-12-06 18:05:58,2m - 19.346s,INCOMPLETE
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC,Firefox 56.0,,2017-12-06 18:03:39,2017-12-06 18:05:58,2m - 18.918s,INCOMPLETE
+callTestCase,Firefox 56.0,,2017-12-06 18:03:40,2017-12-06 18:04:25,45.657s,FAILED
+callTestCase,Firefox 56.0,Create a Rental Header using above Unit,2017-12-06 18:04:25,2017-12-06 18:05:58,1m - 32.536s,INCOMPLETE

@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext6102m000-11-frm.split-26-control-widget</value>
+      <value>xiext6102m000-6-frm.split-26-control-widget</value>
    </webElementProperties>
 </WebElementEntity>

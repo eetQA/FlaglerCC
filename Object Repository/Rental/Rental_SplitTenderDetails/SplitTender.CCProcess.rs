@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext6102m000-11-button-form-process.cc.payment</value>
+      <value>xiext6102m000-6-button-form-process.cc.payment</value>
    </webElementProperties>
 </WebElementEntity>

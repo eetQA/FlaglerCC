@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flagler_RentalTestSuite" time="342" tests="0" failures="1" errors="0">
+   <testsuite name="Flagler_RentalTestSuite" tests="0" failures="1" errors="0" time="342" timestamp="2017-12-06 16:29:24" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/Flagler_RentalTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558010084.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558075987.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558108494.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558120665.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558155519.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558197841.png, C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558227635.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="13b82879-6f22-471a-8599-64505ca511e5"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element &lt;input class=&quot;TextInputField&quot; id=&quot;tdext8151s000-2-tdext851.pric-42-lookup-widget&quot; maxlength=&quot;14&quot; type=&quot;text&quot;> is not clickable at point (859, 172.0500030517578). Other element would receive the click: &lt;div class=&quot;WindowManagerGlass&quot; style=&quot;z-index: 1;&quot;>&lt;/div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)"/>
+         <system-out><![CDATA[2017-12-06 16:29:24 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)
+
+2017-12-06 16:29:25 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-12-06 16:29:26 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)
+
+2017-12-06 16:29:26 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-12-06 16:29:26 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)
+
+2017-12-06 16:29:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-06 16:29:26 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-06 16:29:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-06 16:29:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-06 16:29:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-06 16:29:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-06 16:29:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-06 16:29:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-06 16:29:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-06 16:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-06 16:29:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-06 16:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-06 16:29:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-06 16:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-06 16:29:43 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-06 16:29:44 - [MESSAGE][PASSED] - Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-06 16:29:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-06 16:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-06 16:29:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-06 16:29:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-12-06 16:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-12-06 16:29:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-12-06 16:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-12-06 16:29:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 16:29:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 16:29:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-12-06 16:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-12-06 16:29:51 - [TEST_STEP][PASSED] - setText: Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-12-06 16:29:51 - [MESSAGE][PASSED] - Text 'BP0009523' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-12-06 16:29:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-12-06 16:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-12-06 16:29:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 16:29:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 16:29:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-06 16:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-12-06 16:29:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-12-06 16:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-12-06 16:29:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-12-06 16:29:58 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-12-06 16:29:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-12-06 16:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-12-06 16:29:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-12-06 16:30:00 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-12-06 16:30:00 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is double clicked on
+
+2017-12-06 16:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is double clicked on
+
+2017-12-06 16:30:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:02 - [TEST_STEP][PASSED] - sendKeys: Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-12-06 16:30:03 - [MESSAGE][PASSED] - Keys '1042' sent to object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-12-06 16:30:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-12-06 16:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-12-06 16:30:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-12-06 16:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-12-06 16:30:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-12-06 16:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-12-06 16:30:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:07 - [TEST_STEP][PASSED] - setText: Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-12-06 16:30:07 - [MESSAGE][PASSED] - Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-12-06 16:30:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)
+
+2017-12-06 16:30:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558010084.png]]
+
+2017-12-06 16:30:10 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-12-06 16:30:10 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-12-06 16:30:10 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' failed)
+
+2017-12-06 16:30:10 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader FAILED because (of) Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: org.openqa.selenium.WebDriverException: Element <div class="ListOutputField" style="width: 100%;" id="erext4501m001-1-grid-1-erext401.muin-29-0-widget"></div> is not clickable at point (1275, 565.0499877929688). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 93 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5)
+
+2017-12-06 16:30:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-06 16:30:10 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-06 16:30:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-06 16:30:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-06 16:30:20 - [MESSAGE][PASSED] - Browser is opened with url: 'http://baan:3Xtend27$13@192.168.20.241:8312/webui/servlet/login'
+
+2017-12-06 16:30:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-06 16:30:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-06 16:30:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-06 16:30:20 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-06 16:30:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-06 16:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-06 16:30:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-06 16:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-06 16:30:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-06 16:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-06 16:30:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-06 16:30:26 - [MESSAGE][PASSED] - Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-06 16:30:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-06 16:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-06 16:30:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-06 16:30:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-12-06 16:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-12-06 16:30:32 - [TEST_STEP][PASSED] - setText: Text 'BP0004776' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-12-06 16:30:33 - [MESSAGE][PASSED] - Text 'BP0004776' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-12-06 16:30:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-12-06 16:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-12-06 16:30:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 16:30:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 16:30:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-12-06 16:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-12-06 16:30:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-12-06 16:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-12-06 16:30:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-12-06 16:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-12-06 16:30:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 16:30:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 16:30:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-12-06 16:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-12-06 16:30:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-12-06 16:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-12-06 16:30:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-12-06 16:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-12-06 16:30:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:52 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-12-06 16:30:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-12-06 16:30:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:30:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:30:54 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-12-06 16:30:54 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-12-06 16:30:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-12-06 16:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-12-06 16:30:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 16:31:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 16:31:00 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-12-06 16:31:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-12-06 16:31:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 16:31:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 16:31:05 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-12-06 16:31:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-12-06 16:31:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 16:31:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 16:31:10 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-12-06 16:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-12-06 16:31:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 16:31:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 16:31:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: org.openqa.selenium.WebDriverException: Element <div class="ListOutputField" style="width: 100%;" id="erext4501m001-1-grid-1-erext401.muin-29-0-widget"></div> is not clickable at point (1275, 565.0499877929688). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 93 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5)
+
+2017-12-06 16:31:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: org.openqa.selenium.WebDriverException: Element <div class="ListOutputField" style="width: 100%;" id="erext4501m001-1-grid-1-erext401.muin-29-0-widget"></div> is not clickable at point (1275, 565.0499877929688). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 93 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558075987.png]]
+
+2017-12-06 16:31:16 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-12-06 16:31:16 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-12-06 16:31:16 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:31:16 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:31:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' located by 'By.xpath: //*[@id = 'item_1-label']' not found)
+
+2017-12-06 16:31:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' located by 'By.xpath: //*[@id = 'item_1-label']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558108494.png]]
+
+2017-12-06 16:31:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:31:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:31:50 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-12-06 16:31:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-12-06 16:31:50 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:31:50 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:31:50 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-12-06 16:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-12-06 16:31:51 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:31:51 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:31:51 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:31:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:31:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:31:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:31:53 - [TEST_STEP][PASSED] - sendKeys: Keys '100' sent to object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-12-06 16:31:53 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-12-06 16:31:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:31:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:31:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-12-06 16:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-12-06 16:31:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 16:32:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 16:32:00 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:32:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:32:00 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:32:00 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:32:00 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:32:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:32:00 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:32:00 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:32:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="erext4501m001-1-button-std:action" draggable="true"></div> is not clickable at point (708, 446.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 101 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5)
+
+2017-12-06 16:32:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="erext4501m001-1-button-std:action" draggable="true"></div> is not clickable at point (708, 446.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 101 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558120665.png]]
+
+2017-12-06 16:32:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:32:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:32:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Release' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.Release' located by 'By.xpath: //*[@id = 'erext4501m001-1-menu-std:action-form-to.erext4201m001']' not found)
+
+2017-12-06 16:32:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Release' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.Release' located by 'By.xpath: //*[@id = 'erext4501m001-1-menu-std:action-form-to.erext4201m001']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558155519.png]]
+
+2017-12-06 16:32:35 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-06 16:32:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-06 16:32:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' located by 'By.xpath: //*[@id = 'erext9502m001-2-button-std:action']' not found)
+
+2017-12-06 16:33:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' located by 'By.xpath: //*[@id = 'erext9502m001-2-button-std:action']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558197841.png]]
+
+2017-12-06 16:33:17 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2017-12-06 16:33:23 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2017-12-06 16:33:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext9502m001-2-menu-std:action-form-confirm.delv']})
+
+2017-12-06 16:33:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext9502m001-2-menu-std:action-form-confirm.delv']})
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\FlaglerCC\\Reports\\Flagler_RentalTestSuite\\20171206_162915\\1512558227635.png]]
+
+2017-12-06 16:33:47 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-06 16:33:55 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-06 16:33:55 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-12-06 16:33:55 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-12-06 16:33:55 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:33:55 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:33:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5)
+
+2017-12-06 16:33:57 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:33:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5)
+
+2017-12-06 16:33:57 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-12-06 16:34:09 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:34:09 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 16:34:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 16:34:09 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' failed)
+
+2017-12-06 16:34:09 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' failed)
+
+2017-12-06 16:34:09 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC: Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC FAILED because (of) Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 78 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4100s004-0-satellites-bar-page-3-label']})
+
+2017-12-06 16:34:10 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-12-06 16:34:10 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-12-06 16:34:10 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 16:34:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 16:34:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 78 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4100s004-0-satellites-bar-page-3-label']})
+
+2017-12-06 16:34:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 78 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4100s004-0-satellites-bar-page-3-label']})
+
+2017-12-06 16:34:14 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 16:34:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 16:34:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 12 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4505m002-4-button-std:action']})
+
+2017-12-06 16:34:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 12 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4505m002-4-button-std:action']})
+
+2017-12-06 16:34:19 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 16:34:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 16:34:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 305 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4505m002-4-menu-std:action-form-exec.user.0-label']})
+
+2017-12-06 16:34:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 305 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4505m002-4-menu-std:action-form-exec.user.0-label']})
+
+2017-12-06 16:34:23 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 16:34:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 16:34:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 9 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4203m001-5-button-form-exec.cont.process-label']})
+
+2017-12-06 16:34:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 9 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4203m001-5-button-form-exec.cont.process-label']})
+
+2017-12-06 16:34:27 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-12-06 16:34:27 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-12-06 16:34:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 26 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-erext4203m001-5-input-button-0-label']})
+
+2017-12-06 16:34:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 26 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-erext4203m001-5-input-button-0-label']})
+
+2017-12-06 16:34:27 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-12-06 16:34:27 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-12-06 16:34:27 - [TEST_STEP][FAILED] - setText: Unable to set text 'GLOBAL' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 8 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-pay.gateway-1-lookup-widget']})
+
+2017-12-06 16:34:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:27 - [MESSAGE][FAILED] - Unable to set text 'GLOBAL' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 8 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-pay.gateway-1-lookup-widget']})
+
+2017-12-06 16:34:27 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-06 16:34:27 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-06 16:34:27 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 7 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-card.type-3-lookup-widget']})
+
+2017-12-06 16:34:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:27 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 7 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-card.type-3-lookup-widget']})
+
+2017-12-06 16:34:27 - [TEST_STEP][FAILED] - setText: Unable to set text 'DEBIT MASTERCARD' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-card.type-3-lookup-widget']})
+
+2017-12-06 16:34:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:27 - [MESSAGE][FAILED] - Unable to set text 'DEBIT MASTERCARD' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-card.type-3-lookup-widget']})
+
+2017-12-06 16:34:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:34:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:34:29 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 27 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cardno-7-lookup-widget']})
+
+2017-12-06 16:34:29 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:29 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 27 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cardno-7-lookup-widget']})
+
+2017-12-06 16:34:29 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '5100270000000007' to object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 14 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cardno-7-lookup-widget']})
+
+2017-12-06 16:34:29 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:29 - [MESSAGE][FAILED] - Unable to send keys '5100270000000007' to object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 14 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cardno-7-lookup-widget']})
+
+2017-12-06 16:34:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 16:34:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 16:34:31 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cvv.no-8-decorator']})
+
+2017-12-06 16:34:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cvv.no-8-decorator']})
+
+2017-12-06 16:34:31 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '865' to object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 9 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cvv.no-8-decorator']})
+
+2017-12-06 16:34:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:31 - [MESSAGE][FAILED] - Unable to send keys '865' to object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 9 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-cvv.no-8-decorator']})
+
+2017-12-06 16:34:31 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-06 16:34:31 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-06 16:34:31 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 16:34:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 16:34:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 16:34:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 16:34:34 - [TEST_STEP][FAILED] - setText: Unable to set text '09' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 564 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-exp.month-10-decorator']})
+
+2017-12-06 16:34:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:35 - [MESSAGE][FAILED] - Unable to set text '09' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 564 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-exp.month-10-decorator']})
+
+2017-12-06 16:34:35 - [TEST_STEP][FAILED] - setText: Unable to set text '99' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-exp.year-11-decorator']})
+
+2017-12-06 16:34:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:35 - [MESSAGE][FAILED] - Unable to set text '99' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-exp.year-11-decorator']})
+
+2017-12-06 16:34:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 38 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-button-form-process.cc.payment']})
+
+2017-12-06 16:34:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 38 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-11-button-form-process.cc.payment']})
+
+2017-12-06 16:34:35 - [TEST_STEP][PASSED] - delay: Delayed 13 second(s)
+
+2017-12-06 16:34:48 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2017-12-06 16:34:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 17 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'ttstpsplopen-13-button-form-exec.cont.process']})
+
+2017-12-06 16:34:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 17 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'ttstpsplopen-13-button-form-exec.cont.process']})
+
+2017-12-06 16:34:48 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-06 16:34:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-06 16:34:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-erext4203m001-10-input-button-0']})
+
+2017-12-06 16:34:58 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:34:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-erext4203m001-10-input-button-0']})
+
+2017-12-06 16:34:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 16:35:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 16:35:03 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 23 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4203m001-10-button-std-file.close-label']})
+
+2017-12-06 16:35:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 16:35:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession' (Root cause: org.openqa.selenium.WebDriverException: Session not found: 13b82879-6f22-471a-8599-64505ca511e5
+Command duration or timeout: 23 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13b82879-6f22-471a-8599-64505ca511e5
+*** Element info: {Using=xpath, value=//*[@id = 'erext4203m001-10-button-std-file.close-label']})
+
+2017-12-06 16:35:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 16:35:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 16:35:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-06 16:35:07 - [MESSAGE][PASSED] - Browser is closed
+
+2017-12-06 16:35:07 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' failed)]]></system-out>
+         <system-err><![CDATA[2017-12-06 16:29:24 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 16:29:24 - [TEST_SUITE][FAILED] - Flagler_RentalTestSuite: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)]]></system-out>
+      <system-err><![CDATA[2017-12-06 16:29:24 - [TEST_SUITE][FAILED] - Flagler_RentalTestSuite: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: org.openqa.selenium.WebDriverException: Element <input class="TextInputField" id="tdext8151s000-2-tdext851.pric-42-lookup-widget" maxlength="14" type="text"> is not clickable at point (859, 172.0500030517578). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 88 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dac6fda4-ec84-4cc2-804a-37e15a2846c0)]]></system-err>
+   </testsuite>
+</testsuites>

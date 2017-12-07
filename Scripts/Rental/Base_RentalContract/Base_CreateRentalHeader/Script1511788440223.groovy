@@ -69,13 +69,13 @@ WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), GlobalV
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), 8, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(7, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), FailureHandling.CONTINUE_ON_FAILURE)
 

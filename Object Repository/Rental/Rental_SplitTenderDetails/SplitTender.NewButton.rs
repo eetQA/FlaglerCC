@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext8105m000-12-button-std-file.new</value>
+      <value>xiext8105m000-8-button-std-file.new</value>
    </webElementProperties>
 </WebElementEntity>

@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>dlg-erext4203m001-10-input-button-0</value>
+      <value>dlg-erext4203m001-5-input-button-0</value>
    </webElementProperties>
 </WebElementEntity>
